@@ -236,7 +236,10 @@ header .logo #tel{
     font-weight: 500;
     font-style: italic;
 }
-.sapaInformation p{
+#sapaInformation{
+    display: block;
+}
+#sapaInformation p{
     font-weight: 100;
 }
 .footer{

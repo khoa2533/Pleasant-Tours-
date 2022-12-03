@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Northern</title>
-    <link rel="stylesheet" href="/product/Northern-travel/Northern/northern-css/northern.css">
-    <link rel="stylesheet" href="/product/Northern-travel/Northern/northern-css/index.css">
+    <title>Mai Chau</title>
+    <link rel="stylesheet" href="/product/Northern-travel/cssAllTour/allTour.css">
+    <link rel="stylesheet" href="/product/Northern-travel/cssAllTour/index.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
@@ -27,7 +27,7 @@
           <td></td>
           <td class="hover menu"><a class="menu" href="/home-tour/home-tour.html">home <i class="fa-solid fa-house"></i></a></td>
           <td class="menu hover">
-            <a href="">Northern travel <i class="fa-solid fa-angle-down"></i></a>
+            <a href="/product/Northern-travel/Northern/Northern-travel.html">Northern travel <i class="fa-solid fa-angle-down"></i></a>
             <ul class="sub-menu">
               <li><a class="location" href="/product/Northern-travel/sapa/travelSapa.html">Sapa</a></li>
               <li><a class="location" href="/product/Northern-travel/mocChau/travelMocChau.html">Moc Chau</a></li>
@@ -61,91 +61,49 @@
         </tr>
     </table>
   </nav>
-  <div class="product">
-    <div id="location">
-      <p>Northern travel</p>
+  <div class="details">
+    <h2 id="location">MAI CHAU</h2>
+    <div>
+        <div id="picture">
+            <img src="/product/Northern-travel/Northern/northern-images/mai-chau.jpg">
+        </div>
+        <div class="input">
+        <form onsubmit="notification()"x>
+            <p>Enter tour registration information</p>
+            <label for="">Full name:</label><br>
+            <input class="information" type="text" placeholder="Enter your first and last name"><br>
+            <label>Sex:</label><br>
+            <input name="sex" type="radio">Male
+            <input name="sex" type="radio">Female <br>
+            <label for="">Phone number:</label><br>
+            <input class="information" type="tel" placeholder="Enter your phone number"><br>
+            <label for="">Email:</label><br>
+            <input class="information" type="email" placeholder="Enter your email"><br>
+            <label for="">Address:</label><br>
+            <input class="information" type="text" placeholder="Enter your address"><br>
+            <input id="send"  type="submit" value="Send information">
+        </form>
     </div>
-    <div class="product-card">
-      <table>
-        <tr>
-          <td>
-            <a href="/product/Northern-travel/sapa/travelSapa.html">
-            <div>
-              <div class="opaque">
-              <img src="/product/Northern-travel/Northern/northern-images/sapa.JPEG" alt="">
-              </div>
-              <p class="place-name">Travel to Sapa</p>
-              <p>2 days 1 night</p>
-              <p>Old price: <span class="price">150$</span></p>
-              <p>New price only from: <span class="price-sale">115,5$</span></p>
-              <button>See details...</button>
-            </div>
-          </a>
-          </td>
-          <td>
-            <a href="/product/Northern-travel/mocChau/travelMocChau.html">
-            <div>
-              <div class="opaque">
-              <img src="/product/Northern-travel/Northern/northern-images/moc-chau.JPEG" alt="">
-              </div>
-              <p class="place-name">Travel to Moc Chau</p>
-              <p>3 days 2 night</p>
-              <p>Old price: <span class="price">170$</span></p>
-              <p>New price only from: <span class="price-sale">130,9$</span></p>
-              <button>See details...</button>
-            </div>
-          </a>
-          </td>
-          <td>
-            <a href="/product/Northern-travel/haLong/travelHaLong.html">
-            <div>
-              <div class="opaque">
-              <img src="/product/Northern-travel/Northern/northern-images/ha-long.jpg" alt="">
-              </div>
-              <p class="place-name">Travel to Ha Long</p>
-              <p>2 days 1 night</p>
-              <p>Old price: <span class="price">140$</span></p>
-              <p>New price only from: <span class="price-sale">107.8$</span></p>
-              <button>See details...</button>
-            </div>
-          </a>
-          </td>
-        </tr>
-      </table>
-      <table>
-        <tr>
-          <td>
-            <a href="/product/Northern-travel/maiChau/travelMaiChau.html">
-            <div>
-              <div class="opaque">
-              <img src="/product/Northern-travel/Northern/northern-images/mai-chau.jpg" alt="">
-              </div>
-              <p class="place-name">Travel to Mai Chau</p>
-              <p>2 days 1 night</p>
-              <p>Old price: <span class="price">150$</span></p>
-              <p>New price only from: <span class="price-sale">100$</span></p>
-              <button>See details...</button>
-            </div>
-          </a>
-          </td>
-          <td>
-            <a href="/product/Northern-travel/catBa/travelCatBa.html">
-            <div>
-              <div class="opaque">
-              <img src="/product/Northern-travel/Northern/northern-images/cat-ba.jpg" alt="">
-              </div>
-              <p class="place-name">Travel to Cat Ba</p>
-              <p>2 days 1 night</p>
-              <p>Old price: <span class="price">150$</span></p>
-              <p>New price only from: <span class="price-sale">100$</span></p>
-              <button>See details...</button>
-            </div>
-          </a>
-          </td>
-        </tr>
-      </table>
     </div>
-  </div>
+    <div class="vertical">
+        <p>Number of days to go: <span>2 days 1 night</span></p>
+        <p>Your pick up point is at: <select oninput="price()" name="" id="a">
+            <option disabled selected>Please select your pick up area</option>
+            <option value="0">Northern provinces</option>
+            <option value="15">Provinces in the central region</option>
+            <option value="30">Southern provinces</option>
+        </select></p>
+        <p>Price: <span id="price">103.95$ - 133.95$</span></p>
+        <p id="note">(The above price includes all costs of the tour)</p>
+        <p class="download">Price list for the tour is available, click to download: <a href="price.docx" download="">download</a></p>
+        <p class="download">Detailed itinerary of the tour, click to download: <a href="maiChau.docx" download="">download</a></p>
+    </div>
+    <hr style="height:1px; background-color: black;">
+    <div id="sapaInformation">
+        <p>
+          Mai Chau is a famous tourist land of Hoa Binh with many beautiful natural scenes. In which, there are many outstanding tourist attractions of this valley such as: Lac village, Chieu cave, Mo Luong cave, Ba Khan cave, Go Lao waterfall, Kia - Pa Co cave.        </p>
+      </div>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d238894.16286849833!2d104.71007497303144!3d20.680914818144398!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3133f645315ccf35%3A0x5197e8a870126f79!2zTWFpIENow6J1LCBIw7JhIELDrG5oLCBWaeG7h3QgTmFt!5e0!3m2!1svi!2s!4v1670066150080!5m2!1svi!2s" width="600" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>    </div>
   <div class="footer">
     <p style="width:10%;">Contact us:</p>
     <ul style="width: 30%; text-align: left;">
@@ -155,11 +113,9 @@
     <p style="width: 50%;">Thank you for visiting and using our service<br>If you have any problem with us, please contact us, thanks</p>
     <div style="width: 10%;"><img src="/home-tour/images/logo.jpg"></div>
   </div>
-</body>
-<script
-  src="https://code.jquery.com/jquery-3.6.1.js"
-  integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI="
-  crossorigin="anonymous"></script>
+  </body>
+  <script src="https://code.jquery.com/jquery-3.6.1.js"integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI="crossorigin="anonymous">
+  </script>
   <script>
     $(document).ready(function(){
       $(window).scroll(function(){
@@ -171,4 +127,13 @@
       });
     });
   </script>
-</html>
+  <script>
+    function price(){
+    var a = document.getElementById("a").value;
+    document.getElementById("price").innerHTML=Number(a)+103.95+"$";
+    }
+    function notification(){
+      alert("Sign Up Success! We will contact you within the next 24 hours, thank you");
+    }
+  </script>
+  </html>
