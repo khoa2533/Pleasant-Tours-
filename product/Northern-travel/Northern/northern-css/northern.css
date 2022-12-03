@@ -1,0 +1,252 @@
+*{
+    margin-top: 0;
+    margin-left: 0;
+    
+}
+#body{
+    background-color: rgb(255, 221, 221);
+}
+header{
+    text-align: center;
+    background-color: rgb(12, 0, 123);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+header .logo div{
+    margin-left: 2%;
+    padding-top: 0.2%;
+    width: 9%;
+    text-align: left;
+}
+header .logo div img{
+    border-radius: 100%;
+
+}
+header .logo .name{
+    width: 74%;
+    text-align: center;
+}
+header .name{
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(0, 255, 0);
+}
+header .logo p .slogan{
+    font-size: 13px;
+    color: rgb(220, 131, 255);
+    font-style: italic;
+}
+header .logo #tel{
+    color: white;
+    font-size: 15px;
+    text-align: left;
+    padding-top: 1%;
+    /* padding-left: 20%; */
+    color: yellowgreen;
+}
+.name #red{
+    color: red;
+}
+.name span{
+    color: yellow;
+}
+.header{
+    background-color: rgb(255, 50, 132);
+    border-bottom-style: solid;
+    border-width: 2px;
+    transition:all 0.5s;
+    height: 70px;
+    position: fixed;
+    z-index:16;
+    box-shadow: 1px 1px 10px black;
+}
+.header table tr td{
+    width: 200px;
+    height: 70px;
+    text-align: center;
+    transition:all 0.5s;
+}
+.header table tr td a{
+      cursor: pointer;
+      color: black;
+      text-decoration: none;
+      font-size: 15px;
+      text-transform: uppercase;
+      font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      border: none;
+      outline:0;
+      background-color: rgb(255, 50, 132);
+}
+.header table tr td img{
+      border-radius: 100%;
+}
+.header table tr .menu ul, .header table tr .menu{
+      cursor: pointer;
+}
+.menu{
+      position: relative;
+}
+.menu .sub-menu{
+      position: absolute;
+      list-style: none;
+      background-color: rgb(255, 50, 132);
+      margin-left: 12%;
+      margin-top: 13%;
+      padding-left: 0px;
+      display: none;
+}
+.menu .sub-menu li{
+      border-bottom: 1px solid rgb(254, 137, 184);
+      width: 150px;
+      padding: 5px 0px;
+      transition: all 0.5s;
+      
+}
+.menu:hover>.sub-menu{
+      display: block;
+}
+.hover:hover{
+      background-color: rgb(251, 102, 162);
+}
+.hover:hover>a{
+      background-color: rgb(251, 102, 162);
+}
+.hover a{
+      transition: all 0.5s;
+}
+.sub-menu{
+      border: 1px solid rgb(254, 137, 184);
+}
+.sub-menu li:hover, .sub-menu li:hover>a{
+      background-color:rgb(251, 102, 162);
+}
+.sticky,.sticky table tr td{
+      height: 60px;
+      opacity: 0.9;
+      top: 0;
+      left: 0;
+      background-color: rgb(255, 50, 132);
+      box-shadow: 4px 4px 10px black;
+}
+.sticky table tr td .sub-menu{
+      margin-top: 10%;
+}
+@keyframes flicker{
+      0%{color: white; text-shadow: 1px 1px 10px white;}
+      50%{color: yellow;text-shadow: 1px 1px 10px yellow;}
+      100%{color: white;text-shadow: 1px 1px 10px white;}
+}
+.flicker{
+      animation: flicker 0.5s infinite;
+      background-color: rgb(251, 152, 152);
+      text-align:center;
+      font-weight: bold;
+      font-size: 20px;
+      padding-top: 10px;
+      padding-bottom:5px;
+      font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      text-transform: uppercase;
+}
+.product{
+    padding-top: 80px;
+    text-align: center;
+}
+.product #location p{
+    background-color: pink;
+    font-size: 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: rgb(123, 123, 0);
+}
+.product div table{
+    margin-left: auto;
+    margin-right: auto;
+}
+.product div table tr td{
+    padding: 2%;
+    cursor: pointer;
+}
+.product div table tr td a{
+    text-decoration: none;
+    color: blue;
+}
+.product div table tr td a>div{
+    /* border: 1px solid; */
+    box-shadow: 0 0 10px 2px rgb(196, 196, 196);
+   max-width: 400px;
+   width: auto;
+   background-color: rgb(255, 255, 189);
+   transition: box-shadow 0.6s;
+   border-radius: 3%;
+   padding-bottom: 1%;
+}
+.product div table tr td a div button{
+    background-color: rgb(255, 255, 189);
+    border: none;
+    border-radius: 4px;
+    background-color: rgb(255, 104, 104);
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    transition: background-color 0.6s;
+}
+.product div table tr td a div:hover{
+    box-shadow: 5px 5px 10px 5px rgb(158, 158, 158);
+}
+.product div table tr td a div:hover>button{
+    background-color: red;
+    transition: background-color 0.6s;
+}
+.product div table tr td a div div img{
+    width: 100%;
+    opacity: 0.8;
+    border-radius: 3% 3% 0% 0%;
+    transition: opacity 0.6s;
+}
+.product div table tr td a div:hover>div img{
+    opacity: 1;
+    transition: opacity 0.6s;
+}
+.product-card table tr td a div p{
+    font-size: 15px;
+    padding-left: 5%;
+    text-align: left;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.product-card table tr td div .place-name{
+    text-align: center;
+    padding-left: 0;
+    padding-top: 2%;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(157, 157, 0);
+}.product-card table tr td div .price{
+    text-decoration:line-through;
+}
+.product-card table tr td div .price-sale{
+    color: red;
+}
+.product div table tr td a div .opaque{
+    border: none;
+    box-shadow: none;
+    background-color: rgb(0, 0, 0);
+    border-radius: 3% 3% 0 0;
+}
+.footer{
+    background-color: rgb(12, 0, 123);
+    font-size: 15px;
+    color: white;
+    margin-top: 5%;
+    padding-top: 1%;
+    display: flex;
+    text-align: center;
+}
+.footer div img{
+    width: 85px;
+    height: 80px;
+    border-radius: 100%;
+}
+.footer p,.footer ul{
+    padding-top: 1%;
+}
