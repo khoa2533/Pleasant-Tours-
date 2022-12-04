@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bai1</title>
+    <style>
+        h1{
+            text-align: center;
+            font-size: 70px;
+        }
+        table{
+            margin-left: auto;
+            margin-right: auto;
+        }
+        table form tr td input{
+            padding-top: 20px;
+        }
+        .error-Msg{
+            color: red;
+        }
+        #my-Phone{
+            appearance: none;
+        }
+        input::-webkit-outer-spin-button,
+        input::-webkit-inner-spin-button{
+            appearance: none;
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <h1>CONTACT US</h1>
+    <table>
+        <form onsubmit="return false">
+            <tr>
+                <td>
+                    <h3>Enter Your Information</h3>
+                    Name: <br>
+                    <input type="text" placeholder="Name*" autofocus id="my-Name"><br>
+                    <span id="name-Error" class="error-Msg"></span><br>
+
+                    Email (optional): <br>
+                    <input type="email" placeholder="Email*" id="my-Email"><br>
+                    <span id="email-Error" class="error-Msg"></span><br>
+
+                    <textarea cols="20" rows="3" placeholder="Tell us something*" id="my-Comment"></textarea><br>
+                    <span id="comment-Error" class="error-Msg"></span><br>
+                    You Come From: <br>
+                    <input type="radio" name="check" id="my-Radio" checked>Vietnamese
+                    <input type="radio" name="check">Foreigner<br>
+                    <span id="radio-Error" class="error-Msg"></span><br>
+
+                    <input type="button" value="Send message" id="submitMsg" onclick="myFunction()">
+                    <input type="reset" value="Reset" id="my-Reset">
+                </td>
+            </tr>
+        </form>
+    </table>
+
+    <script>
+        function myFunction(){
+            debugger
+            var count = 0; 
+
+            var nameElement = document.getElementById("my-Name");
+            if(nameElement.value == ""){
+                nameElement.style.borderColor = "red";
+                document.getElementById("name-Error").innerHTML = "Please input your name.";
+            }else{
+                nameElement.style.borderColor = "";
+                document.getElementById("name-Error").innerHTML = "";
+                count++;
+            }
+            
+            var nameElement = document.getElementById("my-Email");
+            if(nameElement.value == "" || ValidateEmail(nameElement.value) == false){
+                nameElement.style.borderColor = "red";
+                document.getElementById("email-Error").innerHTML = "Please input your email.";
+            }else{
+                nameElement.style.borderColor = "";
+                document.getElementById("email-Error").innerHTML = "";
+                count++;
+            }
+
+            var nameElement = document.getElementById("my-Comment");
+            if(nameElement.value == ""){
+                nameElement.style.borderColor = "red";
+                document.getElementById("comment-Error").innerHTML = "Please input comments.";
+            }else{
+                nameElement.style.borderColor = "";
+                document.getElementById("comment-Error").innerHTML = "";
+                count++;
+            }
+
+            var nameElement = document.getElementById("my-Radio");
+            if(nameElement.value == ""){
+                nameElement.style.borderColor = "red";
+                document.getElementById("radio-Error").innerHTML = "Please select radio";
+            }else{
+                nameElement.style.borderColor = "";
+                document.getElementById("radio-Error").innerHTML = "";
+                count++;
+            }
+
+            if(count == 4){
+                alert("Send Messages Successfully!");
+            }
+        }
+        
+        function ValidateEmail(value){
+            var mailformat = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+            if(value.match(mailformat)){
+                return true;
+            }else{
+                return false;
+            }
+        }   
+    </script>
+</body>
+</html>

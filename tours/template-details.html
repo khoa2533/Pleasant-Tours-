@@ -1,0 +1,145 @@
+<style>
+    
+</style>
+</head>
+<body>
+    <div class="col-md-12 mt-5">
+        <div class="card card-details" style="border-radius: 10px; box-shadow: 0 0 10px 2px grey;">
+            <div class="title-details">
+                <h2 class="card-title" style="font-size: 30px;"><b>{{ product.title }}</b></h2>
+            </div>
+            <div class="row">
+                <div class="col-6">
+                    <img src="{{ product.imgUrl }}" class="card-img-top w-100">
+                </div>
+                <div class="book-details">
+                    <div class="input" style="font-size: 12px; border: 1px solid; width: 444px; border-radius: 20px; margin-left: 20px;">
+                    <form style="margin: 15px;" onsubmit="return false">
+                        <p style="color: firebrick;">Enter your travel registration information</p>
+
+                        <label for="">Full name:</label><br>
+                        <input class="information" type="text" id="my-Namedetails" placeholder="Enter your first and last name" style="width: 400px;"><br>
+                        <!-- <span id="name-Error" class="error-Msgdetails"></span><br> -->
+                        
+                        <label>Sex:</label>
+                        <input name="sex" type="radio" id="my-Radiodetails">Male
+                        <input name="sex" type="radio">Female <br>
+                        <!-- <span id="radio-Error" class="error-Msgdetails"></span><br> -->
+                       
+                        <label for="">Phone number:</label><br>
+                        <input class="information" type="tel" id="my-Phonedetails" placeholder="Enter your phone number" style="width: 400px;"><br>
+                        <!-- <span id="phone-Error" class="error-Msgdetails"></span><br> -->
+                       
+                        <label for="">Email:</label><br>
+                        <input class="information" type="email" id="my-Emaildetails" placeholder="Enter your email" style="width: 400px;"><br>
+                        <!-- <span id="email-Error" class="error-Msgdetails"></span><br> -->
+                       
+                        <label for="">Address:</label><br>
+                        <input class="information" type="text" id="my-Addressdetails" placeholder="Enter your address" style="width: 400px;"><br>
+                        <!-- <span id="address-Error" class="error-Msgdetails"></span><br> -->
+                        
+                        <hr>
+                        <input id="send"  type="submit" value="Send information" style="margin-left: 150px; padding: 5px; color: black;" onclick="myFunctiondetails()">
+                    </form>
+                </div>
+            </div>
+    
+
+            <div class="card-body">
+                <div class="d-flex justify-content-between">
+                    <div class="col-6">
+                        <p class="card-text mr-4 text-success">
+                            <p class="card-title card-days"><b>Number of days to go:</b> {{ product.time }}</p>
+                            <p class="card-title card-price">{{ product.price }}</p>
+                            <p id="note">(The above price includes all costs of the tour)</p>
+                            <a href="img/download.jpg" download="{{ product.downloadprice }}">
+                                <button class="btn-detailsword" aria-readonly="true">Price list for the tour is available, click to download:</button>
+                            </a>
+                            <a href="img/download.jpg" download="{{ product.downloadifm }}">
+                                <button class="btn-detailsword" aria-readonly="true">Price list for the tour is </button>
+                            </a>
+                        </p>
+                        <!-- <a href="img/download.jpg" download="{{ product.download }}">
+                            <button class="btn-details" aria-readonly="true">Book Now</button>
+                        </a> -->
+                    </div>
+            
+                </div>
+                <hr>
+                <div>
+                    <p class="card-text card-subDes" style="font-family: Arial, Helvetica, sans-serif;">{{ product.subDescription }}</p>
+                    <p class="card-text">{{ product.description }}</p>
+                </div>
+            </div>
+        </div> 
+    </div>
+</body>
+</html>
+<script>
+    //     function myFunctiondetails(){
+    //         debugger
+    //     var count = 0; 
+
+    //     var nameElement = document.getElementById("my-Namedetails");
+    //     if(nameElement.value == ""){
+    //         nameElement.style.borderColor = "red";
+    //         document.getElementById("name-Error").innerHTML = "Please input your name.";
+    //     }else{
+    //         nameElement.style.borderColor = "";
+    //         document.getElementById("name-Error").innerHTML = "";
+    //         count++;
+    //     }
+
+    //     var nameElement = document.getElementById("my-Radiodetails");
+    //     if(nameElement.value == ""){
+    //         nameElement.style.borderColor = "red";
+    //         document.getElementById("radio-Error").innerHTML = "Please choose gender.";
+    //     }else{
+    //         nameElement.style.borderColor = "";
+    //         document.getElementById("radio-Error").innerHTML = "";
+    //         count++;
+    //     }
+
+    //     var nameElement = document.getElementById("my-Phonedetails");
+    //     if(nameElement.value == "" || (nameElement.value.length == 10 || nameElement.value.length == 11) == false){
+    //         nameElement.style.borderColor = "red";
+    //         document.getElementById("phone-Error").innerHTML = "Please input your telephone.";
+    //     }else{
+    //         nameElement.style.borderColor = "";
+    //         document.getElementById("phone-Error").innerHTML = "";
+    //         count++;
+    //     }
+
+    //     var nameElement = document.getElementById("my-Emaildetails");
+    //     if(nameElement.value == "" || ValidateEmail(nameElement.value) == false){
+    //         nameElement.style.borderColor = "red";
+    //         document.getElementById("email-Error").innerHTML = "Please input your email.";
+    //     }else{
+    //         nameElement.style.borderColor = "";
+    //         document.getElementById("email-Error").innerHTML = "";
+    //         count++;
+    //     }
+
+    //     var nameElement = document.getElementById("my-Addressdetails");
+    //     if(nameElement.value == ""){
+    //         nameElement.style.borderColor = "red";
+    //         document.getElementById("address-Error").innerHTML = "Please input comments.";
+    //     }else{
+    //         nameElement.style.borderColor = "";
+    //         document.getElementById("address-Error").innerHTML = "";
+    //         count++;
+    //     }
+
+    //     if(count == 5){
+    //         alert("Send Messages Contact Successfully!");
+    //     }
+    // }
+    // function ValidateEmail(value){
+    //     var mailformat = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+    //     if(value.match(mailformat)){
+    //         return true;
+    //     }else{
+    //         return false;
+    //     }
+    // }   
+</script>
