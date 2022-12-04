@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>VN GO Travel - Vietnam tours - Contact Us</title>
+<link rel="stylesheet" href="style.css">
+<script src="angular.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<script src="angular.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular-route.js"></script>
+<script src="http://maps.google.com/maps/api/js?key=YOUR_API_KEY"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gmaps.js/0.4.25/gmaps.js"></script>
+</head>
+<body ng-app="myApp">
+<header>
+    <div style="display:flex;" class="logo">
+    <div><img src="./images/logo.jpg" width="75" height="70"></div>
+    <p class="name"><span id="red">VN</span> <span>GO</span> Travel<br> <span class="slogan">Traveling to Vietnam, going is fun, coming back is remembering</span></p>
+    <!-- <p id="tel">Tel: 19006789 <br><span>Mail: vngotravel@gmail.com.vn</span></p> -->
+    </div>
+</header>
+    <nav class="header">
+        <table>
+            <tr>
+                <td></td>
+                <td class="hover"><a class="menu" href="./home.html" onclick="home('')">home <i class="fa-solid fa-house"></i></a></td>
+                <td class="menu hover">
+                <a href="./product.html" onclick="product.html('product.html')">Travels <i class='fas fa-plane'></i></a>
+                </td>
+                <td class="hover"><a href="./homecopyaboutus.html">ABOUT US <i class="fa fa-address-book"></i></a></td>
+                <td class="hover"><a href="./homecopycontactus.html">CONTACT US <i class="fa fa-phone"></i></a></td>
+                <td class="hover"><a href="./homecopyblog.html">BLOG <i class="fas fa-blog"></i></a></td>
+                <td></td>
+            </tr>
+        </table>
+    </nav>
+<div class="content-contactus">
+    <div class="container mt-4 d-flex mb-5">
+        <div class="view row" ng-view ng-controller="myController-Products">
+
+        </div> 
+    </div>
+</div>
+
+<div class="row content-contactus-main">
+    <div class="contactus-title" style="text-align: center;">
+        <h1>CONTACT US</h1>
+        <p>To contact us, you can send an email to mail@vietgo.com.vn, using the contact form below or contact us directly at the address and phone number we provide.</p>
+    </div>
+    <div class="col-6">
+        <table class="table-contactus">
+            <form onsubmit="return false">
+                <tr>
+                    <td class="content-contactus-row1">
+                        <h3>Enter Your Information</h3>
+                        Name: <br>
+                        <input type="text" placeholder="Name*" autofocus id="my-Name"><br>
+                        <span id="name-Error" class="error-Msg"></span><br>
+    
+                        Email (optional): <br>
+                        <input type="email" placeholder="Email*" id="my-Email"><br>
+                        <span id="email-Error" class="error-Msg"></span><br>
+
+                        Telephone: <br>
+                        <input type="number" placeholder="Phone*" id="my-Phone"><br>
+                        <span id="phone-Error" class="error-Msg"></span><br>
+    
+                        <textarea cols="46" rows="4" placeholder="Tell us something*" id="my-Comment"></textarea><br>
+                        <span id="comment-Error" class="error-Msg"></span><br>
+                        Where are you from? <br>
+                        <input type="radio" name="check" id="my-Radio" checked>Vietnam
+                        <input type="radio" name="check">Foreign<br>
+                        <span id="radio-Error" class="error-Msg"></span><br>
+
+                        <input type="button" style="padding: 10px; background-color: palevioletred;" value="Send Contact" id="submitMsg" onclick="myFunction()">
+                        <input type="reset" style="padding: 10px; background-color: palevioletred;" value="Reset" id="my-Reset">
+                    </td>
+                </tr>
+            </form>
+        </table>
+    </div>
+    <div class="col-6 content-contactus-row2">
+        <p> 
+            <p>VIETGO INTERNATIONAL SERVICES JOINT STOCK COMPANY</p>
+            Address:<i class="fa fa-map-marker"></i> Head office in Ho Chi Minh City<br>
+            590 - CMT8 street - District 3 - Ho Chi Minh City<br>
+            UNT License No: 01-970/TCDL-GPLHQT
+            <p>Hotline:<i class="fa fa-phone"></i> 098 480 3309</p>
+            <p>Phone: 024. 365 6886</p>
+            Email: <i class="fa fa-envelope"></i> mail@vietgo.com.vn
+        </p>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.319281359228!2d106.66408561411663!3d10.786840061952653!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752ed2392c44df%3A0xd2ecb62e0d050fe9!2zRlBUIEFwdGVjaCBIQ00gLSBI4buHIFRo4buRbmcgxJDDoG8gVOG6oW8gTOG6rXAgVHLDrG5oIFZpw6puIFF14buRYyBU4bq_IChTaW5jZSAxOTk5KQ!5e0!3m2!1svi!2s!4v1670070715842!5m2!1svi!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+</div>
+<script>
+    function myFunction(){
+        var count = 0; 
+
+        var nameElement = document.getElementById("my-Name");
+        if(nameElement.value == ""){
+            nameElement.style.borderColor = "red";
+            document.getElementById("name-Error").innerHTML = "Please input your name.";
+        }else{
+            nameElement.style.borderColor = "";
+            document.getElementById("name-Error").innerHTML = "";
+            count++;
+        }
+        
+        var nameElement = document.getElementById("my-Email");
+        if(nameElement.value == "" || ValidateEmail(nameElement.value) == false){
+            nameElement.style.borderColor = "red";
+            document.getElementById("email-Error").innerHTML = "Please input your email.";
+        }else{
+            nameElement.style.borderColor = "";
+            document.getElementById("email-Error").innerHTML = "";
+            count++;
+        }
+
+        var nameElement = document.getElementById("my-Phone");
+        if(nameElement.value == "" || (nameElement.value.length == 10 || nameElement.value.length == 11) == false){
+            nameElement.style.borderColor = "red";
+            document.getElementById("phone-Error").innerHTML = "Please input your telephone.";
+        }else{
+            nameElement.style.borderColor = "";
+            document.getElementById("phone-Error").innerHTML = "";
+            count++;
+        }
+
+        var nameElement = document.getElementById("my-Comment");
+        if(nameElement.value == ""){
+            nameElement.style.borderColor = "red";
+            document.getElementById("comment-Error").innerHTML = "Please input comments.";
+        }else{
+            nameElement.style.borderColor = "";
+            document.getElementById("comment-Error").innerHTML = "";
+            count++;
+        }
+
+        var nameElement = document.getElementById("my-Radio");
+        if(nameElement.value == ""){
+            nameElement.style.borderColor = "red";
+            document.getElementById("radio-Error").innerHTML = "Please select radio";
+        }else{
+            nameElement.style.borderColor = "";
+            document.getElementById("radio-Error").innerHTML = "";
+            count++;
+        }
+
+        if(count == 5){
+            alert("Send Messages Contact Successfully!");
+        }
+    }
+    
+    function ValidateEmail(value){
+        var mailformat = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+        if(value.match(mailformat)){
+            return true;
+        }else{
+            return false;
+        }
+    }   
+</script>
+<div class="footer-contactus">
+    <div class="container">
+        <div class="logo-footer">
+            <img src="images/logo-footer.jpg">
+        </div>
+        <div class="row">
+            <div class="col-4">
+                <p> 
+                    <p>VIETGO INTERNATIONAL SERVICES JOINT STOCK COMPANY</p>
+                    Address:<i class="fa fa-map-marker"></i> Head office in Ho Chi Minh City<br>
+                    590 - CMT8 street- District 3 - Ho Chi Minh City<br>
+                    UNT License No: 01-970/TCDL-GPLHQT
+                    <p>Hotline:<i class="fa fa-phone"></i> 098 480 3309</p>
+                    <p>Phone: 024. 365 6886</p>
+                    Email: <i class="fa fa-envelope"></i> mail@vietgo.com.vn
+                </p>
+            </div>
+            <div class="col-4">
+                <p> 
+                    <p><i class="fa fa-map-marker"></i> REPRESENTATIVE OFFICES OF SMALL PROVINCE</p>
+                    <p>Representative office in Ho Chi Minh City</p>
+                    590 - CMT8 street - District 3 - Ho Chi Minh City<br>
+                    9 - Xuan Hong street - District 3 - Ho Chi Minh City
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <b>&#169 Copyright 2022 VietGo - Specializing in organizing high quality tours - Full version. Powered by sata365.com</b>
+    </div>
+</div>
+</body>
+</html>
