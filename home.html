@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VN GO Travel - Vietnam tours - Home</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="angular.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular-route.js"></script>
+</head>
+<body ng-app="myApp">
+    <header>
+        <div style="display:flex;" class="logo">
+        <div><img src="./images/logo.jpg" width="75" height="70"></div>
+        <p class="name"><span id="red">VN</span> <span>GO</span> Travel<br> <span class="slogan">Traveling to Vietnam, going is fun, coming back is remembering</span></p>
+        <!-- <p id="tel">Tel: 19006789 <br><span>Mail:vngotravel@gmail.com.vn</span></p> -->
+        </div>
+    </header>
+        <nav class="header">
+            <table>
+                <tr>
+                    <td></td>
+                    <td class="hover"><a class="menu" href="./home.html" onclick="home('')">home <i class="fa-solid fa-house"></i></a></td>
+                    <td class="menu hover">
+                    <a href="./product.html" onclick="product.html('product.html')">Travels <i class='fas fa-plane'></i></a>
+                    </td>
+                    <td class="hover"><a href="./homecopyaboutus.html">ABOUT US <i class="fa fa-address-book"></i></a></td>
+                    <td class="hover"><a href="./homecopycontactus.html">CONTACT US <i class="fa fa-phone"></i></a></td>
+                    <td class="hover"><a href="./homecopyblog.html">BLOG <i class="fas fa-blog"></i></a></td>
+                    <td></td>
+                </tr>
+            </table>
+        </nav>
+        <div style="padding-top: 71px;" class="introduce">
+        <table>
+            <tr>
+            <td>
+                <img class="banner" src="./images/banner-left.jpg" alt="">
+        
+            </td>
+            <td style="width: 71%;">
+                <div class="container" style=" margin-left:0; margin-right:0; width:100%;"> 
+                <div id="myCarousel" class="carousel slide" data-ride="carousel"style="width:100%;">
+                    <ol class="carousel-indicators">
+                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                    <li data-target="#myCarousel" data-slide-to="2"></li>
+                    <li data-target="#myCarousel" data-slide-to="3"></li>
+                    </ol>
+                    <div class="carousel-inner" id="divv">
+                    <div class="item active">
+                        <img src="./images/travel-vietnam-1.jpg"style="width:100%;">
+                    </div>
+                    <div class="item">
+                        <img src="./images/vietnam-trip-1.jpg"style="width:100%;">
+                    </div>
+                    <div class="item">
+                        <img src="./images/travel-vietnam.jpg"style="width:100%;">
+                    </div>
+                    <div class="item">
+                        <img src="./images/travel-24.JPEG"style="width:100%;">
+                    </div>
+                    <a class="left carousel-control" href="#myCarousel" data-slide="prev" id="prev">
+                        <span id="next1" class="glyphicon glyphicon-chevron-left"></span>
+                    </a>
+                    <a class="right carousel-control" href="#myCarousel" data-slide="next" id="next">
+                        <span id="next2" class="glyphicon glyphicon-chevron-right"></span>
+                    </a>
+                    </div>
+                </div>
+                </div>
+            </td>
+            <td>
+                <img class="banner" src="./images/banner-right.JPEG" alt="">
+            </td>
+            </tr>
+        </table>
+        </div>
+        <div class="flicker"><p>Welcome to vn go travel</p></div>
+        <img src="img/nhathoducba-hochiminh.jpg" class="img-home">
+    <div class="content">
+        <div class="container mt-4 d-flex mb-5">
+            <div class="view row" ng-view ng-controller="myController-Products">
+
+            </div> 
+        </div>
+    </div>
+        
+        <!-- <div class="content">
+            <div class="container mt-4 d-flex mb-5">
+                <div class="view row" ng-view ng-controller="myController-News">
+
+                </div> 
+            </div>
+        </div> -->
+
+        <script>
+            var gScope;
+            var gMyData;
+            var app = angular.module("myApp", ["ngRoute"]); 
+            app.config(function ($routeProvider){
+                $routeProvider
+                    .when("/", {templateUrl: "template-content.html"})
+                    .when("/b", {templateUrl: "template-product.html"})
+                    .when("/details", {templateUrl: "template-details.html"})
+            });
+
+            app.controller("myController-Products", function($scope, $http){
+                gScope = $scope;
+                $http.get("list.json").then(function(response){
+                    gMyData = response.data.products;
+                    $scope.myData = response.data.products;
+                    //$scope.course = {};
+
+                    $scope.details = function(id){
+                        debugger
+                        for(i in $scope.myData){
+                            if($scope.myData[i].id == id){
+                                $scope.product = angular.copy($scope.myData[i]);
+                            }
+                        }
+                    }
+                });
+            });
+        </script>
+    </nav>
+    <div class="footer">
+        <div class="container">
+            <div class="logo-footer">
+                <img src="images/logo-footer.jpg">
+            </div>
+            <div class="row">
+                <div class="col-4">
+                    <p> 
+                        <p>VIETGO INTERNATIONAL SERVICES JOINT STOCK COMPANY</p>
+                        Address:<i class="fa fa-map-marker"></i> Head office in Ho Chi Minh City<br>
+                        590 - CMT8 street- District 3 - Ho Chi Minh City<br>
+                        UNT License No: 01-970/TCDL-GPLHQT
+                        <p>Hotline:<i class="fa fa-phone"></i> 098 480 3309</p>
+                        <p>Phone: 024. 365 6886</p>
+                        Email: <i class="fa fa-envelope"></i> mail@vietgo.com.vn
+                    </p>
+                </div>
+                <div class="col-4">
+                    <p> 
+                        <p><i class="fa fa-map-marker"></i> REPRESENTATIVE OFFICES OF SMALL PROVINCE</p>
+                        <p>Representative office in Ho Chi Minh City</p>
+                        590 - CMT8 street - District 3 - Ho Chi Minh City<br>
+                        9 - Xuan Hong street - District 3 - Ho Chi Minh City
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <b>&#169 Copyright 2022 VietGo - Specializing in organizing high quality tours - Full version. Powered by sata365.com</b>
+        </div>
+    </div>
+</body>
+</html>
