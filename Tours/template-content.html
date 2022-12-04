@@ -1,0 +1,98 @@
+<div class="home-card">
+    <table>
+    <tr>
+        <th colspan="3">When you come to Sapa, what will you see?</th>
+    </tr>
+    <tr>
+        <td><div><img src="images/pansipan.png"><p>Fansipan Peak Sapa<br>(roof of Indochina)</p></div></td>
+        <td><div><img src="images/Sapa-stone-church.jpg"><p>stone church in Sapa</p></div></td>
+        <td><div><img src="images/snow-in-sapa.jpg"><p>Snow scene in Sapa in winter</p></div></td>
+    </tr>
+    <tr><th colspan="3">The place is checked in by many tourists when coming to Moc Chau</th></tr>
+    <tr>
+        <td><div><img src="images/moc-chau-1.jpg"><p>heart tea hill</p></div></td>
+        <td><div><img src="images/moc-chau-2.jpg"><p>glass bridge</p></div></td>
+        <td><div><img src="images/moc-chau-3.jpg"><p>S-shaped road</p></div></td>
+    </tr>
+    <tr><th colspan="3">What's hot in Da Nang?</th></tr>
+    <tr>
+        <td><div><img src="images/cau-vang-ba-na-hills.jpg"><p>Ba Na hills tourist destination</p></div></td>
+        <td><div><img src="images/bien-danang.jpg"><p>Da Nang beach</p></div></td>
+        <td><div><img src="images/cau-rong.jpg"><p>Dragon Bridge</p></div></td>
+    </tr>
+</table>
+<table>
+    <tr><th colspan="2">Beautiful scenery of Nha Trang Khanh Hoa</th></tr>
+    <tr>
+      <td><div><img src="./images/nha-trang-1.jpg" alt=""><p>a beautiful beach in Nha Trang</p></div></td>
+      <td><div><img src="./images/nha-trang-2.jpg" alt=""><p>Tran Phu Nha Trang Street - A crowded destination in the seaside town</p></div></td>
+    </tr>
+  </table>
+  <table>
+    <tr><th colspan="2">Ba Ria-Vung Tau city</th></tr>
+    <tr>
+      <td><div><img src="./images/ba-ria-1.jpeg" alt=""><p>Statue of Christ Vung Tau - The largest statue of Jesus in Asia</p></div></td>
+      <td><div><img src="./images/ba-ria-2.jpg" alt=""><p>beach at Vung Tau</p></div></td>
+    </tr>
+  </table>
+  <table>
+    <tr><th colspan="3">Ho Chi Minh City-Vietnam</th></tr>
+    <tr>
+      <td><div><img src="./images/hcm-1.jpg" alt=""><p>Landmark 81 building<br>(the tallest in Vietnam)</p></div></td>
+      <td><div><img src="./images/hcm-2.jpg" alt=""><p>Notre Dame Cathedral</p></div></td>
+      <td><div><img src="./images/hcm-3.jpg" alt=""><p>Ben Thanh market</p></div></td>
+  </tr>
+  </table>
+</div>
+
+<div class="home-news1">
+    <table class="table table-striped"> 
+        <thead>
+            <div class="title-home">
+                <h1>Upcoming Tours</h1>
+            </div>
+            <tr class="title-table">
+                <th style="text-align: left">No</th>
+                <th style="text-align: left">Name</th>
+                <th style="text-align: left">Time</th>
+                <th style="text-align: left">Price</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr ng-repeat="x in myData">
+                <td>{{x.no}}</td>
+                <td class="home-nametable">{{x.title}}</td>
+                <td>{{x.time}}</td>
+                <td>{{x.price}}</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+<!-- <div class="home-news2">
+    <table class="table table-striped"> 
+        <thead>
+            <div class="title-home">
+                <h1>TOUR COMING SOON IN THE NORTHERM</h1>
+            </div>
+            <tr class="titel-table">
+                <th>No</th>
+                <th>Name</th>
+                <th>Time</th>
+                <th>Price</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr ng-repeat="x in myData">
+                <td>{{x.no}}</td>
+                <td>{{x.title}}</td>
+                <td>{{x.time}}</td>
+                <td>{{x.price}}</td>
+            </tr>
+        </tbody>
+    </table>
+</div> -->
+
+
+
+
+

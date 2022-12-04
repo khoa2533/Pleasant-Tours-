@@ -1,0 +1,133 @@
+{
+    "":
+    [
+        {"no": 1, "id": "C01", "title": "Fansipan Peak Sapa (The highest mountain in Indochina)", "imgUrl":"images/pansipan.png"},
+        {"no": 2, "id": "C01", "title": "stone church in Sapa", "imgUrl":"images/Sapa-stone-church.jpg"},
+        {"no": 3, "id": "C01", "title": "Snow scene in Sapa in winter", "imgUrl":"images/snow-in-sapa.jpg"},
+        {"no": 4, "id": "C01", "title": "heart tea hill", "imgUrl":"images/moc-chau-1.jpg"},
+        {"no": 5, "id": "C01", "title": "glass bridge", "imgUrl":"images/moc-chau-2.jpg"},
+        {"no": 6, "id": "C01", "title": "S-shaped road", "imgUrl":"images/moc-chau-3.jpg"},
+        {"no": 1, "id": "C01", "title": "Ba Na hills tourist destination", "imgUrl":"images/cau-vang-ba-na-hills.jpg"},
+        {"no": 1, "id": "C01", "title": "Da Nang beach", "imgUrl":"images/bien-danang.jpg"},
+        {"no": 1, "id": "C01", "title": "Dragon Bridge", "imgUrl":"images/cau-rong.jpg"}
+    ],
+    "products":
+    [
+        {
+            "no": 1, "id": "C01", "title": "CATBA", "description":"Cat Ba archipelago is an archipelago of 367 islands, including Cat Ba island in the south of Ha Long Bay, off the coast of Hai Phong city and Quang Ninh province, about 30 km from Hai Phong city center, far from the city Ha Long is about 25 km. Administratively, the archipelago belongs to Cat Hai district, Hai Phong city. It has been recognized by UNESCO as a world biosphere reserve. The infrastructure is quite developed with a complex of many hotels, motels, resorts, temples and especially the entire island area has been deployed by Hai Phong city with radio transceiver stations (Wifi). . Cat Ba is constantly being invested and developed to become a tourist destination of international stature in the future.   "
+            , "price": "Price: ~54.38$","imgUrl":"./imageproduct/catba.jpg"
+            , "subDescription": ""
+            , "type": "North"
+            , "time": "1 Night 2 Days"
+            , "downloadprice": "./word-ifm/catba.docx"
+            , "downloadifm": "sapa.docx"
+        },
+        {
+            "no": 2, "id": "C02", "title": "DALAT", "description":"With an altitude of 1,500 meters above sea level and surrounded by mountain ranges and forest flora, Da Lat inherits a mild and cool mountainous climate all year round. The history of more than a century has also left the city a valuable architectural heritage, likened to a museum of European architecture in the twentieth century. The rich natural and human resources make Da Lat one of the famous tourist destinations of Vietnam, attracting millions of tourists every year to visit and relax. Da Lat is also a center of education and scientific research, a religiously diverse city with the presence of hundreds of temples, churches, monasteries... a particularly rich agricultural area with vegetable and flower products. Thanks to its mild climate, beautiful natural landscape and rich architectural heritage, Da Lat is also known by many other names such as 'Misty City', 'City of Thousand Pines', 'City of Thousand Pines', 'Land of Cherry Blossoms' or 'Little Paris'."
+            , "price": "Price: ~175.21$","imgUrl":"img/dalatcity.jpg"
+            , "subDescription": ""
+            , "type": "North"
+            , "time": "5 Days"
+            , "downloadprice": "./word-ifm/dalat.docx"
+            , "downloadifm": "sapa.docx"
+        },
+        {
+            "no": 3, "id": "C03", "title": "HALONG BAY", "description":"Hạ Long Bay or Halong Bay (Vietnamese: Vịnh Hạ Long, IPA: [vînˀ hâːˀ lawŋm] (listen)) is a UNESCO World Heritage Site and popular travel destination in Quảng Ninh Province, Vietnam. The name Hạ Long means 'descending dragon'. Administratively, the bay belongs to Hạ Long city, Cẩm Phả city, and is a part of Vân Đồn district. The bay features thousands of limestone karsts and isles in various shapes and sizes. Hạ Long Bay is a center of a larger zone which includes Bai Tu Long Bay to the northeast, and Cát Bà Island to the southwest. These larger zones share a similar geological, geographical, geomorphological, climate, and cultural characters."
+            , "price": "Price: ~116.81$","imgUrl":"img/tuyhoa-phuyen.jpg"
+            , "subDescription": ""
+            , "type": "North"
+            , "time": "3 Days"
+            , "downloadprice": "./word-ifm/halongbay.docx"
+            , "downloadifm": "sapa.docx"
+        },
+        {
+            "no": 4, "id": "C04", "title": "HUE", "description":"Hue is the capital city of Thua Thien Hue province, Vietnam. Hue used to be the capital (the ancient capital of Hue) of Vietnam during the Tay Son Dynasty (1788–1801) and the Nguyen Dynasty (1802–1945). Currently, the city is one of the centers of culture - tourism, specialized health care, education and training, science and technology of the Central - Central Highlands and the whole country. Prominent landmarks are the Perfume River and the legacy of the feudal dynasties, the city has five UNESCO titles in Vietnam: Complex of Hue Monuments (1993), Hue Court Music (2003) , Woodblocks of Nguyen Dynasty (2009), Chau Ban of Nguyen Dynasty (2014) and System of poetry and literature on Hue royal architecture (2016). In addition, Hue is also one of the localities with a heritage of Bai Choi singing which has been recognized as an intangible cultural heritage of humanity."
+            , "price": "Price: ~114.79$","imgUrl":"img/sapa-laocai.jpg"
+            , "subDescription": ""
+            , "type": "North"
+            , "time": "3 Days"
+            , "downloadprice": "./word-ifm/hue.docx"
+            , "downloadifm": "sapa.docx"
+        },
+        {
+            "no": 5, "id": "C05", "title": "MAICHAU", "description":"", "price": "Price: ~108.75$","imgUrl":"./imageproduct/maichau.jpg"
+            , "subDescription": "The Central Highlands or the South Central Highlands is an area with plateau topography including provinces ranked in geographical order from the North to the South, including Kon Tum, Gia Lai, Dak Lak, Dak Nong and Lam Dong. The Central Highlands is a region in central Vietnam. The Central Highlands together with the North Central Coast and the South Central Coast form Central Vietnam."
+            , "type": "South"
+            , "time": "4 Days"
+            , "downloadprice": "./word-ifm/maichau.docx"
+            , "downloadifm": "sapa.docx"
+        },
+        {
+            "no": 6, "id": "C06", "title": "MOCCHAU", "description":"", "price": "Price: ~400$","imgUrl":"./imageproduct/mocchau.jpg"
+            , "subDescription": "Con Dao tourism is an attractive destination for travel enthusiasts who love to explore, experience and relax. Every year, this place welcomes millions of domestic and foreign tourists because of its wild and charming beauty with long fine white sand beaches, turquoise sea along with historical sites that make Con Dao a destination for tourists. Famous tourism not only in Vietnam but also in the world."
+            , "type": "South"
+            , "time": "3 Days"
+            , "downloadprice": "./word-ifm/mocchau.docx"
+            , "downloadifm": "sapa.docx"
+        },
+        {
+            "no": 7, "id": "C07", "title": "NHATRANG", "description":"", "price": "Price: ~261.40$","imgUrl":"img/biennhatrang.jpg"
+            , "subDescription": "This journey will take visitors to Nha Trang in the White Sand region with interesting and attractive attractions: Nha Trang Bay, Binh Ba Island, Vinpearland Entertainment Paradise, Long Son Pagoda…. Especially on this occasion, tourists are offered a stimulus package with a discount of 30-40%. Compared to regular tours!"
+            , "type": "South"
+            , "time": "4 Days"
+            , "downloadprice": "./word-ifm/nhatrang.docx"
+            , "downloadifm": "sapa.docx"
+        },
+        {
+            "no": 8, "id": "C08", "title": "QUYNHON", "description":"", "price": "Price: ~88.61$","imgUrl":"img/thiencamvungchua.jpg"
+            , "subDescription": "According to legend, during the reign of the 13th Hung King, he heard the wind, waves and the sound of pine needles ringing against the cliffs to create a melodious music, like a fairy playing a lute. The King ordered his courtiers to climb the mountain, seeing that it looked like a Ti Ba lute, and immediately lowered his pen to write down the three words Thien Cam Son. 'Thien Cam' means heaven's flock. There is also another legend, when Ho Quy Ly was chased here by the Ming army, he was arrested, so he called it Thien Cam (heaven kept)."
+            , "type":"South"
+            , "time": "3 Days"
+            , "downloadprice": "./word-ifm/quynhon.docx"
+            , "downloadifm": "sapa.docx"
+        },
+        {
+            "no": 9, "id": "C09", "title": "TAYNINH", "description":"", "price": "Price: ~64.04$","imgUrl":"img/banme-buonmathuoc.jpg"
+            , "subDescription": "Coming to the coffee capital of Buon Ma Thuot, the specialty to treat visitors is 'The sun, the wind, ...' as people often say about this land. The sky is so high and blue that it is only hot during the day and cool at night. There are trees everywhere, vast primeval forests, rubber trees, coffee beans, cocoa trees, fruit trees, shade trees, etc. They are small, clean and beautiful streets and roads. , the two sides are also a good blue. Coffee - the perfect addictive drink, ready for you to enjoy at your leisure. The people of Ban Me are warm, friendly and hospitable with a very diverse culture..."
+            , "type":"South"
+            , "time": "3 Days"
+            , "downloadprice": "./word-ifm/tayninh.docx"
+            , "downloadifm": "sapa.docx"
+        },
+        {
+            "no": 10, "id": "C010", "title": "SAPA", "description":"", "price": "Price: ~92.60$","imgUrl":"./imageproduct/sapa.jpg"
+            , "subDescription": "Phu Quoc is an island located in the Gulf of Thailand and is the largest island in Vietnam. Administratively, Phu Quoc island, together with neighboring smaller islands and Tho Chu archipelago, 55 nautical miles to the southwest, composes Phu Quoc island city under Kien Giang province."
+            , "type":"Central"
+            , "time": "4 Days"
+            , "downloadprice": "./word-ifm/sapa.docx"
+            , "downloadifm": "sapa.docx"
+        },
+        {
+            "no": 11, "id": "C011", "title": "HA NOI - SAI GON - MUI NE - HANOI (2 Night 3 Days)", "description":"", "price": "Price: ~143.39$","imgUrl":"img/muine-binhthuan.jpg"
+            , "subDescription": "Mui Ne is a place, the name of a cape in Phan Thiet city, Binh Thuan province, Vietnam. This is a famous tourist area of Binh Thuan province and one of the national tourist areas of Vietnam (however, most resorts are concentrated in Ham Tien ward, near Mui Ne. ) . Administratively, the entire coastal area from Mui Ne to Hon Rom is located about 7 km away, which is Mui Ne ward of Phan Thiet city."
+            , "type":"Central"
+            , "time": "3 Days"
+            , "downloadprice": "./word-ifm/tayninh.docx"
+            , "downloadifm": "sapa.docx"
+        },
+        {
+            "no": 12, "id": "C012", "title": "HA NOI - HA NOI - BAC YEN - TA XUA  (1 Night 2 Days)", "description":"", "price": "Price: ~60.01$","imgUrl":"img/mocchau-sonla.jpg"
+            , "subDescription":"Each season, Moc Chau wears different clothes. Sometimes it's pictures of green meadows stretching endlessly, fields of white cabbage as far as the eye can see, sometimes pink bands of peach color, pristine white shirts filled with the vitality of plum flowers... Before Tet and After the Lunar New Year (about the end of January, to the end of February of the solar calendar): peach and plum flowers bloom in every corner of Moc Chau."
+            , "type":"Central"
+            , "time": "2 Days"
+        },
+        {
+            "no": 13, "id": "C013", "title": "HA NOI - HA NOI - DIEN BIEN - SON LA - HA NOI (3 Night 4 Days)", "description":"", "price": "Price: ~140.97$","imgUrl":"img/mocchaudienbien.jpg"
+            , "subDescription":"Dien Bien is located on the western edge of the Northwest region of Vietnam. The province has geographical coordinates from 20°54' to 22°33' North latitude and from 102°10' to 103°36' East longitude. The province is located 504 km west of Hanoi capital, borders Son La province to the east and northeast, Lai Chau province to the north, China's Yunnan province to the northwest, and Phongsali and Luang provinces. Prabang of Laos to the west and southwest."
+            , "type":"Central"
+            , "time": "4 Days"
+        },
+        {
+            "no": 14, "id": "C014", "title": "BA VANG Pagoda - YÊN TỬ - HOA YEN Pagoda (1 day)", "description":"", "price": "Price: ~34.24$","imgUrl":"img/chuahoayen-bariavungtau.jpg"
+            , "subDescription":"Yen Tu is a beautiful mountain famous in our country with clear streams, floating like silk fabric winding around bamboo forests, immense green pine forests, looming ancient towers and temples. This place was once the Buddhist capital with the famous Truc Lam Zen sect whose founder was a national hero - King Tran Nhan Tong (1258-1308). Ba Vang Pagoda - the mountain temple with the largest main hall in Vietnam in Yen Tu (Quang Ninh). Ba Vang Pagoda has a feng shui circuit originating from Dong Pagoda (Yen Tu) with an altitude of 1,080m and the lower terrain forming a dragon and white tiger position, with a ground to cultivate to form a pagoda in gratitude to the Buddha."
+            , "type":"Central"
+            , "time": "1 Days"
+        },
+        {
+            "no": 15, "id": "C015", "title": "BAI ĐINH Pagoda - TRAN TEMPLE - PHU MINH TOWER (1 day)", "description":"", "price": "Price: ~50.35$","imgUrl":"img/chuabaidinh-ninhbinh.jpg"
+            , "subDescription":"Bai Dinh Pagoda is a large temple complex with many Asian and Vietnamese records, established as the temple with the largest gilded bronze Buddha in Asia, the temple with the longest Arhat corridor in Asia, and the Maitreya statue. The largest bronze temple in Southeast Asia... This is the largest temple and owns the most records in Vietnam."
+            , "type":"Central"
+            , "time": "1 Days"
+        }
+    ]
+}
