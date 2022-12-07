@@ -158,11 +158,13 @@ header .logo #tel{
 .content{
       margin-top: 80px;
       padding-left: 10%;
-      background-color: rgb(115, 115, 255);
+      background-color: rgb(255, 216, 236);
       padding: 2%;
-      color: white;
+      color: rgb(107, 106, 106);
       font-size: 18px;
       text-align: center;
+      padding-left: 10%;
+      padding-right: 10%;
 }
 
 
