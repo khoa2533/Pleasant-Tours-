@@ -1,0 +1,98 @@
+.details{
+    background-color: antiquewhite;
+    margin-top: 100px;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    padding: 2% 5%;
+    box-shadow: 0 0  10px 2px gray;
+    border-radius: 10px;
+}
+.details #location{
+    width: auto;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    margin: 0;
+    padding-bottom: 2%;
+    color: #00FF99;
+    font-family:Impact,Charcoal, sans-serif;
+    text-shadow:1px -1px #008080, 2px -2px #008080, 3px -3px #008080;
+}
+.details div{
+    display: flex;
+}
+.details .vertical{
+    padding-top: 2%;
+    display: block;
+}
+.details .vertical p select{
+    outline: none;
+}
+.details p{
+    font-size: 17px ;
+    font-weight: bold;
+}
+.details div div img{
+    width: auto;
+}
+.details div .input{
+    width: 70%;
+    margin-left: 5%;
+    
+}
+.details div div form{
+    /* background-color: rgb(132, 132, 255); */
+    padding: 5%;
+    height: 100%;
+    /* border-radius: 40px; */
+    border: 1px solid;
+    /* box-shadow: 0 0 10px 2px gray; */
+}
+.details div div form label{
+    font-size: 18px;
+}
+.details div div form p{
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+}
+.details div div form .information{
+    font-size: 15px;
+    width: 100%;
+    height: 30px;
+    border: none;
+    border-bottom: 1px solid;
+    outline: none;
+}
+.details div div form #send{
+    margin-top: 5%;
+    width: 50%;
+    margin-left: 24%;
+}
+.vertical #note{
+    font-style: italic;
+    color: rgb(251, 0, 0);
+    font-size: 15px;
+}
+.vertical p span{
+    color: red;
+}
+.vertical p select{
+    color: blue;
+    border-color: blue;
+    border:none;
+    cursor: pointer;
+}
+.vertical .download{
+    font-size: 15px;
+    font-weight: 500;
+    font-style: italic;
+}
+#sapaInformation{
+    display: block;
+}
+#sapaInformation p{
+    font-weight: 100;
+}

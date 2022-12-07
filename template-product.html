@@ -1,0 +1,25 @@
+
+<div class="col-md-4 mt-5" ng-repeat="x in myData">
+    <div class="card" style="border-radius: 10px;">
+        <img src="{{x.imgUrl}}" class="card-img-top w-100 zoom" style="border-top-left-radius: 10px;border-top-left-radius: 10px;">
+        <h2 class="card-title "><b>Travel to {{ x.title }}</b></h2>
+        <div class="card-body">
+            <div class="d-flex justify-content-between">
+                <p class="mr-4">{{ x.time }}</p>
+            </div>
+            <div class="d-flex justify-content-between">
+                <p class="mr-4">Price: {{ x.price }}</p>
+            </div>
+            <div class="button-pruduct-card" style="text-align: center;">
+                <button class="button-card">
+                    <a href="#!details" class="card-link" data-toggle="modal" data-target="#modalid" ng-click="details(x.id)">See details.....</a>
+                </button>
+            </div>
+        </div>
+    </div> 
+</div>
+
+
+
+
+
