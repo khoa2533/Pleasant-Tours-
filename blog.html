@@ -18,9 +18,9 @@
 <style>
 @import url('./imageblog/backgroundblog.jpg');
 :root{
-    --clr-font-dark-100:#121;
-    --clr-font-dark-200:#232;
-    --clr-side:#153;
+    --clr-font-dark-100: rgb(132 173 234);
+    --clr-font-dark-200: #232;
+    --clr-side:rgb(132 173 234);
     --clr-card:#efe;
     --clr-body:#dec;
 }
@@ -37,7 +37,7 @@
     / 1fr 5fr 1fr 1fr;
     grid-column-gap: 2rem;
     font-family: Lato;
-    background:var(--clr-body);
+    background-color: #ffffff;
     animation-duration:5s;
     animation-name:kf-open;
 }
@@ -68,7 +68,7 @@ main>h3{
 }
 
 .card{
-    background:var(--clr-card);
+    /* background:var(--clr-card); */
     color:var(--clr-font-dark-200);
     box-shadow:0 0 10px gray;
     margin:2rem;
@@ -108,11 +108,12 @@ main>h3{
     z-index:0;
     margin:0;
     padding:0;
+    padding-left: 10px;
     grid-area:side;
-    min-width:170px;
+    min-width:190px;
 }
 .sidebar-content{
-    background:var(--clr-side);
+    background: rgb(132 173 234);
     color:white;
     height:max-content;
     width:auto;
@@ -211,169 +212,169 @@ main>h3{
     <div>
         <div class="flicker-product"></div>
     </div>
-    <div class="content-blog" style="margin-bottom: 20px;">
-        <div class="hero">
-            <h1 class="hero-title">BLOG</h1>
-        </div>
-        
-        <main>
-            <h3>🌼 Recent Posts 🌸</h3>
-            <div class="card" style="background: bisque;">
-            <img class="card-thumb" src="./imageblog/halongbayblog.jpg"></img>
-            <h3 class="card-title" style="text-align: left;"> Journey to Ha Long Bay: Travel Guide Blog</h3>
-            <p class="card-content"> 
-                <i class="fa-solid fa-clock"></i> 12/05/2022 by <i class="fa fa-user" aria-hidden="true"></i> Karlsson<br>
-                When visiting Vietnam, a trip to the stunning Halong bay or Ha Long 
-                Bay is absolutely unmissable by all those traveling in Northeast Vietnam and the Hanoi 
-                area. The UNESCO World Heritage Site is home to emerald waters and infinite towering 
-                limestone isles, islets, and caves topped by lush rainforests. All aging 20 million 
-                years! This is Vietnam's most popular attraction and it attracts thousands of visitors 
-                for a day trip or multiple-day trips from around the world.....
-                <br/>
-            </p>
+        <div class="content-blog" style="margin-bottom: 20px;">
+            <div class="hero">
+                <h1 class="hero-title">BLOG</h1>
             </div>
-        
-            <div class="card" style="background: bisque;">
-                <img class="card-thumb" src="./imageblog/hoianblog.jpg"></img>
-                <h3 class="card-title" style="text-align: left;"> 14 Things To Do in Hoi An, Vietnam</h3>
+            
+            <main>
+                <h3>🌼 Recent Posts 🌸</h3>
+                <div class="card">
+                <img class="card-thumb" src="./imageblog/halongbayblog.jpg"></img>
+                <h3 class="card-title" style="text-align: left;"> Journey to Ha Long Bay: Travel Guide Blog</h3>
                 <p class="card-content"> 
-                    <i class="fa-solid fa-clock"></i> 07/02/2018 by <i class="fa fa-user" aria-hidden="true"></i> Cloie<br>
-                    Hoi An: Vietnam's most loved travel destination, and home to the charming lantern-lit 
-                    streets of the old town, which lie nestled along the river bank. The Japanese, Chinese
-                    and French influences translate back into the street scene where traditional old 
-                    wooden and yellow colonial buildings sit side-by-side. Not to mention the baguettes 
-                    being sold on every street corner- yum! Hoi An is a long-established UNESCO world heritage
-                    site and, therefore, has perfectly preserved its history. Here are the top things to 
-                    do in Hoi An, Vietnam.....
+                    <i class="fa-solid fa-clock"></i> 12/05/2022 by <i class="fa fa-user" aria-hidden="true"></i> Karlsson<br>
+                    When visiting Vietnam, a trip to the stunning Halong bay or Ha Long 
+                    Bay is absolutely unmissable by all those traveling in Northeast Vietnam and the Hanoi 
+                    area. The UNESCO World Heritage Site is home to emerald waters and infinite towering 
+                    limestone isles, islets, and caves topped by lush rainforests. All aging 20 million 
+                    years! This is Vietnam's most popular attraction and it attracts thousands of visitors 
+                    for a day trip or multiple-day trips from around the world.....
                     <br/>
                 </p>
                 </div>
-        
-                <div class="card" style="background: bisque;">
-                    <img class="card-thumb" src="./imageblog/ninhbingtamcocblog.jpg"></img>
-                    <h3 class="card-title" style="text-align: left;"> Best Things To Do in Ninh Binh & Tam Coc</h3>
-                    <p class="card-content"> 
-                        <i class="fa-solid fa-clock"></i> 03/12/2020 by <i class="fa fa-user" aria-hidden="true"></i> McGowan<br>
-                        Discover the natural paradise of Tam Coc in Vietnam: a stunning stretch of flat 
-                        landscape, with hundreds of limestone karsts towering above calm rice paddies. 
-                        As a result, it's no surprise that the area has been nicknamed the 'Ha Long Bay 
-                        on land'. Tam Coc is the perfect rural retreat and an ideal place to unwind 
-                        after your lively travels in Hanoi. So enjoy going back to the beautiful 
-                        basics of natural living.....
-                        <br/>
-                    </p>
-                </div>
             
-                <div class="card" style="background: bisque;">
-                    <img class="card-thumb" src="./imageblog/hanoiblog.jpg"></img>
-                    <h3 class="card-title" style="text-align: left;"> 12 Things To Do in Hanoi, Vietnam</h3>
+                <div class="card">
+                    <img class="card-thumb" src="./imageblog/hoianblog.jpg"></img>
+                    <h3 class="card-title" style="text-align: left;"> 14 Things To Do in Hoi An, Vietnam</h3>
                     <p class="card-content"> 
-                        <i class="fa-solid fa-clock"></i> 17/07/2019 by <i class="fa fa-user" aria-hidden="true"></i> Gallagher<br>
-                        Welcome to Hanoi, where the street is king! Experience delicious street food on 
-                        every corner, watch trains squeeze behind narrow houses, and traffic merge into
-                        each other from every possible direction. The energy and vibrancy of this addictive
-                        Vietnamese city is not to be missed, so aim to spend 2-3 days exploring all the 
-                        things to do in Hanoi.....
+                        <i class="fa-solid fa-clock"></i> 07/02/2018 by <i class="fa fa-user" aria-hidden="true"></i> Cloie<br>
+                        Hoi An: Vietnam's most loved travel destination, and home to the charming lantern-lit 
+                        streets of the old town, which lie nestled along the river bank. The Japanese, Chinese
+                        and French influences translate back into the street scene where traditional old 
+                        wooden and yellow colonial buildings sit side-by-side. Not to mention the baguettes 
+                        being sold on every street corner- yum! Hoi An is a long-established UNESCO world heritage
+                        site and, therefore, has perfectly preserved its history. Here are the top things to 
+                        do in Hoi An, Vietnam.....
                         <br/>
                     </p>
-                </div>
+                    </div>
+            
+                    <div class="card">
+                        <img class="card-thumb" src="./imageblog/ninhbingtamcocblog.jpg"></img>
+                        <h3 class="card-title" style="text-align: left;"> Best Things To Do in Ninh Binh & Tam Coc</h3>
+                        <p class="card-content"> 
+                            <i class="fa-solid fa-clock"></i> 03/12/2020 by <i class="fa fa-user" aria-hidden="true"></i> McGowan<br>
+                            Discover the natural paradise of Tam Coc in Vietnam: a stunning stretch of flat 
+                            landscape, with hundreds of limestone karsts towering above calm rice paddies. 
+                            As a result, it's no surprise that the area has been nicknamed the 'Ha Long Bay 
+                            on land'. Tam Coc is the perfect rural retreat and an ideal place to unwind 
+                            after your lively travels in Hanoi. So enjoy going back to the beautiful 
+                            basics of natural living.....
+                            <br/>
+                        </p>
+                    </div>
+                
+                    <div class="card">
+                        <img class="card-thumb" src="./imageblog/hanoiblog.jpg"></img>
+                        <h3 class="card-title" style="text-align: left;"> 12 Things To Do in Hanoi, Vietnam</h3>
+                        <p class="card-content"> 
+                            <i class="fa-solid fa-clock"></i> 17/07/2019 by <i class="fa fa-user" aria-hidden="true"></i> Gallagher<br>
+                            Welcome to Hanoi, where the street is king! Experience delicious street food on 
+                            every corner, watch trains squeeze behind narrow houses, and traffic merge into
+                            each other from every possible direction. The energy and vibrancy of this addictive
+                            Vietnamese city is not to be missed, so aim to spend 2-3 days exploring all the 
+                            things to do in Hanoi.....
+                            <br/>
+                        </p>
+                    </div>
 
-                <div class="card" style="background: bisque;">
-                    <img class="card-thumb" src="./imageblog/phuquocblog.jpg"></img>
-                    <h3 class="card-title" style="text-align: left;"> 10 Awesome Things to Do on Phu Quoc Island, Vietnam</h3>
-                    <p class="card-content"> 
-                        <i class="fa-solid fa-clock"></i> 12/09/2018 by <i class="fa fa-user" aria-hidden="true"></i> Mac Allister<br>
-                        Phu Quoc: an 'emerald island' of white powder beaches, turquoise waters, palm 
-                        tree forests, mountains, and waterfalls. This Vietnamese island is located close 
-                        to the coast of Cambodia in the Gulf of Thailand, and half of the island is a 
-                        stunning national park. Aside from its incredible nature, and paradise beaches, 
-                        it is also home to bustling markets, and unique food products. Hop on a motorbike
-                        and get ready for an adventure, with all the top things to do in Phu Quoc.....
-                        <br/>
-                    </p>
-                </div>
+                    <div class="card">
+                        <img class="card-thumb" src="./imageblog/phuquocblog.jpg"></img>
+                        <h3 class="card-title" style="text-align: left;"> 10 Awesome Things to Do on Phu Quoc Island, Vietnam</h3>
+                        <p class="card-content"> 
+                            <i class="fa-solid fa-clock"></i> 12/09/2018 by <i class="fa fa-user" aria-hidden="true"></i> Arronson<br>
+                            Phu Quoc: an 'emerald island' of white powder beaches, turquoise waters, palm 
+                            tree forests, mountains, and waterfalls. This Vietnamese island is located close 
+                            to the coast of Cambodia in the Gulf of Thailand, and half of the island is a 
+                            stunning national park. Aside from its incredible nature, and paradise beaches, 
+                            it is also home to bustling markets, and unique food products. Hop on a motorbike
+                            and get ready for an adventure, with all the top things to do in Phu Quoc.....
+                            <br/>
+                        </p>
+                    </div>
 
-                <div class="card" style="background: bisque;">
-                    <img class="card-thumb" src="./imageblog/muineblog.jpg"></img>
-                    <h3 class="card-title" style="text-align: left;"> 8 Best Things To Do in Mui Ne, Vietnam</h3>
-                    <p class="card-content"> 
-                        <i class="fa-solid fa-clock"></i> 22/02/2019 by <i class="fa fa-user" aria-hidden="true"></i> Emily<br>
-                        On the beautiful southern coast of Vietnam lies Mui Ne: a charming fishing village
-                        that has become a kitesurfing paradise! Although it is only a 4-hour train ride 
-                        away from Ho Chi Minh, it feels like you're visiting a different country. This is
-                        due to its unusual space-like desert landscapes and red canyons, unique in a 
-                        tropical country. Enjoy all the fantastic natural delights of Mui Ne, with all 
-                        the best things to do......
-                        <br/>
-                    </p>
-                </div>
+                    <div class="card">
+                        <img class="card-thumb" src="./imageblog/muineblog.jpg"></img>
+                        <h3 class="card-title" style="text-align: left;"> 8 Best Things To Do in Mui Ne, Vietnam</h3>
+                        <p class="card-content"> 
+                            <i class="fa-solid fa-clock"></i> 22/02/2019 by <i class="fa fa-user" aria-hidden="true"></i> Emily<br>
+                            On the beautiful southern coast of Vietnam lies Mui Ne: a charming fishing village
+                            that has become a kitesurfing paradise! Although it is only a 4-hour train ride 
+                            away from Ho Chi Minh, it feels like you're visiting a different country. This is
+                            due to its unusual space-like desert landscapes and red canyons, unique in a 
+                            tropical country. Enjoy all the fantastic natural delights of Mui Ne, with all 
+                            the best things to do......
+                            <br/>
+                        </p>
+                    </div>
 
-                <div class="card" style="background: bisque;">
-                    <img class="card-thumb" src="./imageblog/sapablog.jpg"></img>
-                    <h3 class="card-title" style="text-align: left;"> Trekking in Sapa: Balancing on the Borders of the Ricefields</h3>
-                    <p class="card-content"> 
-                        <i class="fa-solid fa-clock"></i> 09/01/2021 by <i class="fa fa-user" aria-hidden="true"></i> Chris<br>
-                        Sapa: a place to summit giant mountain peaks, balance on the borders of rice 
-                        fields, and swim under stunning waterfalls. The town, with its endless beautiful 
-                        views, is a must-do on any Vietnamese itinerary. The Sapa valley, and its 
-                        surrounding nature, is located in the North of Vietnam, close to the border of 
-                        China. Experience trekking among some of the most beautiful scenery in Vietnam, 
-                        or immerse yourself in the culture by visiting a tribe or staying with a local 
-                        family.....
-                        <br/>
-                    </p>
-                </div>
+                    <div class="card">
+                        <img class="card-thumb" src="./imageblog/sapablog.jpg"></img>
+                        <h3 class="card-title" style="text-align: left;"> Trekking in Sapa: Balancing on the Borders of the Ricefields</h3>
+                        <p class="card-content"> 
+                            <i class="fa-solid fa-clock"></i> 09/01/2021 by <i class="fa fa-user" aria-hidden="true"></i> Chris<br>
+                            Sapa: a place to summit giant mountain peaks, balance on the borders of rice 
+                            fields, and swim under stunning waterfalls. The town, with its endless beautiful 
+                            views, is a must-do on any Vietnamese itinerary. The Sapa valley, and its 
+                            surrounding nature, is located in the North of Vietnam, close to the border of 
+                            China. Experience trekking among some of the most beautiful scenery in Vietnam, 
+                            or immerse yourself in the culture by visiting a tribe or staying with a local 
+                            family.....
+                            <br/>
+                        </p>
+                    </div>
 
-                <div class="card" style="background: bisque;">
-                    <img class="card-thumb" src="./imageblog/cangioblog.jpg"></img>
-                    <h3 class="card-title" style="text-align: left;"> Day Trip to Can Gio: Worth it or Skip it?</h3>
-                    <p class="card-content"> 
-                        <i class="fa-solid fa-clock"></i> 22/09/2017 by <i class="fa fa-user" aria-hidden="true"></i> Nathan<br>
-                        Can Gio is a famous tourist attraction in Vietnam for its marvelous mangrove 
-                        forest with 10 kilometers of murky shoreline. The palm-fringed island is a Unesco 
-                        Biosphere Reservation with a wide range of biodiversity of more than 150 species 
-                        of flora and 200 species of fauna. This can be a lovely day trip for those loving 
-                        traffic-free and natural-close trips......
-                        <br/>
-                    </p>
-                </div>
+                    <div class="card">
+                        <img class="card-thumb" src="./imageblog/cangioblog.jpg"></img>
+                        <h3 class="card-title" style="text-align: left;"> Day Trip to Can Gio: Worth it or Skip it?</h3>
+                        <p class="card-content"> 
+                            <i class="fa-solid fa-clock"></i> 22/09/2017 by <i class="fa fa-user" aria-hidden="true"></i> Nathan<br>
+                            Can Gio is a famous tourist attraction in Vietnam for its marvelous mangrove 
+                            forest with 10 kilometers of murky shoreline. The palm-fringed island is a Unesco 
+                            Biosphere Reservation with a wide range of biodiversity of more than 150 species 
+                            of flora and 200 species of fauna. This can be a lovely day trip for those loving 
+                            traffic-free and natural-close trips......
+                            <br/>
+                        </p>
+                    </div>
 
-                <div class="card" style="background: bisque;">
-                    <img class="card-thumb" src="./imageblog/cairangblog.jpg"></img>
-                    <h3 class="card-title" style="text-align: left;"> Cai Rang Floating Market - Travel guide & 5 tips for visiting</h3>
-                    <p class="card-content"> 
-                        <i class="fa-solid fa-clock"></i> 07/06/2022 by <i class="fa fa-user" aria-hidden="true"></i> DongWook<br>
-                        Cai Rang, like many other floating markets in the Mekong Delta, began as an 
-                        important trading point. The reason it was done on the river is that this area is 
-                        completely connected to hundreds of waterways. Owners of fruit orchards, local 
-                        factories and rice farmers can load the goods directly from their land onto boats 
-                        in the rivers which they then sail to the market. Traders can then buy goods on 
-                        these floating markets and transfer goods directly onto their boats. From here 
-                        they bring it to their shops or even all the way across the river to Ho Chi Minh 
-                        City to distribute it further there......
-                        <br/>
-                    </p>
+                    <div class="card">
+                        <img class="card-thumb" src="./imageblog/cairangblog.jpg"></img>
+                        <h3 class="card-title" style="text-align: left;"> Cai Rang Floating Market - Travel guide & 5 tips for visiting</h3>
+                        <p class="card-content"> 
+                            <i class="fa-solid fa-clock"></i> 07/06/2022 by <i class="fa fa-user" aria-hidden="true"></i> DongWook<br>
+                            Cai Rang, like many other floating markets in the Mekong Delta, began as an 
+                            important trading point. The reason it was done on the river is that this area is 
+                            completely connected to hundreds of waterways. Owners of fruit orchards, local 
+                            factories and rice farmers can load the goods directly from their land onto boats 
+                            in the rivers which they then sail to the market. Traders can then buy goods on 
+                            these floating markets and transfer goods directly onto their boats. From here 
+                            they bring it to their shops or even all the way across the river to Ho Chi Minh 
+                            City to distribute it further there......
+                            <br/>
+                        </p>
+                    </div>
+            </main>
+            
+            <div class="sidebar">
+                <div class="sidebar-content">
+                <h3>🌷Social Network🌹</h3>
+                <ul>
+                    <li><a href="#"><img src="./imageblog/facebook.png" 
+                        style="height: 20px; width: 20px;"></a> Facebook</li><hr>
+                    <li><a href="#"><img src="./imageblog/twitter.png" 
+                        style="height: 20px; width: 20px;"></a> Twitter</li><hr>
+                    <li><a href="#"><img src="./imageblog/instagram.png" 
+                        style="height: 20px; width: 20px;"></a> Instagram</li><hr>
+                    <li><a href="#"><img src="./imageblog/linkedin.png" 
+                        style="height: 20px; width: 20px;"></a> Linkedin</li><hr>
+                    <li><a href="#"><img src="./imageblog/youtube.png" 
+                        style="height: 20px; width: 20px;"></a> Youtube</li>
+                </ul>
                 </div>
-        </main>
-        
-        <div class="sidebar">
-            <div class="sidebar-content">
-            <h3>🌷Social Network🌹</h3>
-            <ul>
-                <li><a href="#"><img src="./imageblog/facebook.png" 
-                    style="height: 20px; width: 20px;"></a> Facebook</li><hr>
-                <li><a href="#"><img src="./imageblog/twitter.png" 
-                    style="height: 20px; width: 20px;"></a> Twitter</li><hr>
-                <li><a href="#"><img src="./imageblog/instagram.png" 
-                    style="height: 20px; width: 20px;"></a> Instagram</li><hr>
-                <li><a href="#"><img src="./imageblog/linkedin.png" 
-                    style="height: 20px; width: 20px;"></a> Linkedin</li><hr>
-                <li><a href="#"><img src="./imageblog/youtube.png" 
-                    style="height: 20px; width: 20px;"></a> Youtube</li>
-            </ul>
             </div>
         </div>
-    </div>
 </nav>
 <div class="footer">
     <div class="container">

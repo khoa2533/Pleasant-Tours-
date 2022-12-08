@@ -13,7 +13,7 @@ body{
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     border: none;
     outline:0;
-    background-color: rgb(255, 50, 132);
+    background-color: rgb(132 173 234);
 }
 .header table tr td{
     width: 300px;
@@ -25,7 +25,7 @@ body{
     border-radius: 100%;
 }
 .header{
-    background-color: rgb(255, 50, 132);
+    background-color: rgb(132 173 234);
     border-bottom-style: solid;
     border-width: 2px;
     transition:all 0.5s;
@@ -39,16 +39,17 @@ body{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .content{
-    background-color: rgb(255, 221, 221);
+    background-color: #ffffff;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     margin-top: -20px;
     padding-bottom: 20px;
 }
+.main-contentblog{
+    margin-top: 90px;
+}
 .content .content-blog{
-    background-color: #ffafde;
+    background-color: #ffffff;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    margin-top: -20px;
-    padding-bottom: 20px;
 }
 .content .Sapa{
     width: 40%;
@@ -60,16 +61,18 @@ body{
     opacity: 0.9;
     top: 0;
     left: 0;
-    background-color: rgb(255, 50, 132);
+    background-color: rgb(132 173 234);
     box-shadow: 4px 4px 10px black;
 }
 .sticky table tr td .sub-menu{
     margin-top: 10%;
 }
+.content-product{
+    margin-top: 70px;
+}
 .content table tr td div{
-    box-shadow: 0 0 3px black;
-    border-style: solid;
-    border-width: 1px;
+    box-shadow: 0 0 1px black;
+    border: 1px solid;
     max-width: 350px;
     max-height: 350px;
     padding-top: 10px;
@@ -158,18 +161,19 @@ header .name{
 }
 header p .slogan{
     font-size: 13px;
-    color: rgb(220, 131, 255);
+    color: rgb(90 147 231);
     font-style: italic;
 }
 header .logo{
-    background-color: brown;
+    background-color: #ffffff;
 }
 header .logo div img{
     border-radius: 100%;
+    border: rgb(90 147 231) 1px solid;
 }
 header .logo div{
     margin-left: 2%;
-    padding-top: 0.2%;
+    padding-top: 0.5%;
     width: 9%;
     text-align: left;
 }
@@ -191,14 +195,14 @@ header .logo #tel{
 .menu .sub-menu{
     position: absolute;
     list-style: none;
-    background-color: rgb(255, 50, 132);
+    background-color: rgb(132 173 234);
     margin-left: 12%;
     margin-top: 13%;
     padding-left: 0px;
     display: none;
 }
 .menu .sub-menu li{
-    border-bottom: 1px solid rgb(254, 137, 184);
+    border-bottom: 1px solid rgb(90 147 231);
     width: 150px;
     padding: 5px 0px;
     transition: all 0.5s;
@@ -207,19 +211,19 @@ header .logo #tel{
     display: block;
 }
 .hover:hover{
-    background-color: rgb(251, 102, 162);
+    background-color: rgb(90 147 231);
 }
 .hover:hover>a{
-    background-color: rgb(251, 102, 162);
+    background-color: rgb(90 147 231);
 }
 .hover a{
     transition: all 0.5s;
 }
 .sub-menu{
-    border: 1px solid rgb(254, 137, 184);
+    border: 1px solid rgb(90 147 231);
 }
 .sub-menu li:hover, .sub-menu li:hover>a{
-    background-color:rgb(251, 102, 162);
+    background-color:rgb(90 147 231);
 }
 .name #red{
     color: red;
@@ -230,18 +234,20 @@ header .logo #tel{
 .footer{
     font-size: medium;
     margin-top: -20px;
-    background-color: brown;
-    color: white;
+    background-color: #f9f9f9;
 }
 .footer .logo-footer img{
+    border-radius: 100%;
+    border: rgb(90 147 231) 1px solid;
     margin: auto;
+    margin-top: 10px;
     height: 100px;
     width: 120px;
 }
 .copyright{
     text-align: center;
     border: 1px solid;
-    background: sandybrown;
+    background: rgb(132 173 234);
     color: #000;
 }
 
@@ -308,7 +314,9 @@ body{
     }
 }
 .card{
-    border-radius: 20px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.1);
+
 }
 .card:hover{
     transform: scale(1.05);
@@ -337,13 +345,13 @@ body{
 }
 /* Style the counter cards */
 .col-md-4 .card{
-    background-color: #f5f7b7;
+    background-color: #ffffff;
 }
 .card-title{
     margin-top: 10px;
-    text-align: center;
-    color: crimson;
+    text-align: left;
     font-weight: 800;
+    padding-left: 10px;
 }
 .card-days{
     text-align: left;
@@ -357,8 +365,10 @@ body{
 }
 .justify-content-between{
     font-size: medium;
-    color: blue !important;
     font-weight: 600;
+}
+.justify-content-between .text-red{
+    color: red;
 }
 img .w-100{
     width: 90% !important;
@@ -376,7 +386,7 @@ div .button-pruduct-card .button-card a{
     text-decoration: none;
     outline: none;
     color: #fff;
-    background-color: #fe4365;
+    background-color: rgb(132 173 234);;
     border-radius: 3px;
     -webkit-background-clip: padding-box;
     background-clip: padding-box;
@@ -387,8 +397,8 @@ div .button-pruduct-card .button-card a{
     transition: box-shadow .3s;
 }
 .button-card:hover, .button-card:focus {
-    -webkit-box-shadow: 0 0 0 2px #cff09e, 0 0 0 4px #ff0364;
-    box-shadow: 0 0 0 2px #cff09e, 0 0 0 4px #ff0364;
+    -webkit-box-shadow: 0 0 0 2px #cff09e, 0 0 0 4px rgb(90 147 231);;
+    box-shadow: 0 0 0 2px #cff09e, 0 0 0 4px rgb(90 147 231);;
     -webkit-transition-timing-function: cubic-bezier(0.6, 4, 0.3, 0.8);
     transition-timing-function: cubic-bezier(0.6, 4, 0.3, 0.8);
     -webkit-animation: gelatine 0.5s 1;
@@ -516,15 +526,16 @@ div .button-pruduct-card .button-card a{
 }
 .contactus-title p{
     text-align: center;
-    font-size: 15px;
+    font-size: small;
     font-family: cursive;
     color: darkred;
+    margin-left: 19px;
 }
 .content-contactus{
     margin-top: 21px;
 }
 .content-contactus-main{
-    background-color: wheat;
+    background-color: #ffffff;
     padding-bottom: 20px;
     width: 101%;
 }
@@ -535,13 +546,39 @@ div .button-pruduct-card .button-card a{
 .content-contactus-row2{
     font-size: large;
 }
+#submitMsg{
+    font-size: medium;
+    width: 30%;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: rgb(132 173 234);
+    border: 1px solid;
+}
+#submitMsg:hover{
+    transform: scale(1.05);
+    background-color: rgb(90 147 231);
+}
+#my-Reset{
+    font-size: medium;
+    width: 20%;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: rgb(132 173 234);
+    border: 1px solid;
+}
+#my-Reset:hover{
+    transform: scale(1.05);
+    background-color: rgb(90 147 231);
+}
 .footer-contactus{
     font-size: medium;
-    background-color: brown;
-    color: white;
+    background-color: #f9f9f9;
 }
 .footer-contactus .logo-footer img{
+    border-radius: 100%;
+    border: rgb(90 147 231) 1px solid;
     margin: auto;
+    margin-top: 10px;
     height: 100px;
     width: 120px;
 }
@@ -619,7 +656,7 @@ input::-webkit-inner-spin-button {
 }
 .btn-details:hover{transform: translateY(-4px);}
 .flicker{
-    background-color: rgb(255, 221, 221);
+    background-color: #ffffff;
     text-align: center;
     font-weight: bold;
     font-size: 20px;

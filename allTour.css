@@ -1,6 +1,6 @@
 .details{
     background-color: antiquewhite;
-    margin-top: 100px;
+    margin-top: 35px;
     background-color: white;
     margin-left: auto;
     margin-right: auto;
@@ -12,13 +12,10 @@
 .details #location{
     width: auto;
     font-size: 30px;
-    font-weight: bold;
     text-align: center;
     margin: 0;
     padding-bottom: 2%;
-    color: #00FF99;
-    font-family:Impact,Charcoal, sans-serif;
-    text-shadow:1px -1px #008080, 2px -2px #008080, 3px -3px #008080;
+    font-family:Impact, sans-serif;
 }
 .details div{
     display: flex;
@@ -37,11 +34,10 @@
 .details div div img{
     width: auto;
 }
-.details div .input{
+/* .details div .input{
     width: 70%;
-    margin-left: 5%;
-    
-}
+    margin-left: 15px;
+} */
 .details div div form{
     /* background-color: rgb(132, 132, 255); */
     padding: 5%;
@@ -66,10 +62,21 @@
     border-bottom: 1px solid;
     outline: none;
 }
+
+
 .details div div form #send{
+    font-size: medium;
     margin-top: 5%;
     width: 50%;
     margin-left: 24%;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: rgb(132 173 234);
+    border: 1px solid;
+}
+.details div div form #send:hover{
+    transform: scale(1.05);
+    background-color: rgb(90 147 231);
 }
 .vertical #note{
     font-style: italic;
