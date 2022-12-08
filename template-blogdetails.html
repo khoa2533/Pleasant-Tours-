@@ -1,0 +1,17 @@
+<div class="details">
+    <h2 id="location">{{ blog.title }}</h2>
+    <div class="row">
+        <div id="picture" class="col-sm-12">
+            <img style="width: 100%;" src="{{ blog.imgUrl }}">
+        </div>
+    </div>
+    <div class="vertical">
+        <i class="fa-solid fa-clock"></i> {{ blog.time }} by <i class="fa fa-user" aria-hidden="true"></i> {{ blog.name }}<br>
+    </div>
+    <hr style="height:1px; background-color: black;">
+    <div id="sapaInformation">
+        <p>
+            {{ blog.description }}
+        </p>
+      </div>
+    </div>
