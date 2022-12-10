@@ -1,9 +1,11 @@
 <div class="card" ng-repeat="x in myData" >
     <img class="card-thumb" src="{{ x.imgUrl }}"></img>
-    <h3 class="card-title" style="text-align: left;"> {{ x.title}}</h3>
-    <p class="card-content"> 
-        <i class="fa-solid fa-clock"></i> {{ x.time }} by <i class="fa fa-user" aria-hidden="true"></i> {{ x.name }}<br>
-        {{ x.description }}
-        <a href="#!blogdetails" class="blog-view-details" data-toggle="modal" data-target="#modalid" ng-click="blogdetails(x.id)">view details</a>
-    </p>
+    <div>
+        <p><h3 class="card-title" style="text-align: left;"> {{ x.title}}</h3></p>
+        <p class="card-content"> 
+            <i class="fa-solid fa-clock"></i> {{ x.time }} by <i class="fa fa-user" aria-hidden="true"></i> {{ x.name }}<br>
+            {{ x.description }}
+            <a href="#!blogdetails" class="blog-view-details" data-toggle="modal" data-target="#modalid" ng-click="blogdetails(x.id)">view details</a>
+        </p>
+    </div>
 </div>
