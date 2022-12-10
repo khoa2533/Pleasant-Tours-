@@ -508,13 +508,12 @@ div .button-pruduct-card .button-card a{
     width: 100%;
 }
 .contactus-title{
-    padding-top: 40px;
+    padding-top: 95px;
     text-align: center;
     width: 100%;
 }
 .contactus-title h1{
     text-align: center;
-    font-family: cursive;
     font-size: 30px;
     color: slateblue;
     margin-top: -18px;
@@ -544,13 +543,19 @@ div .button-pruduct-card .button-card a{
 }
 .button-sendmailoffi{
     text-align: left;
-    margin-left: 195px;
+    margin-left: 200px;
 }
 .button-sendmailoffi input{
-    text-align: center;
-    background-color: rgb(132 173 234);
-    margin: 5px;
-    font-size: 20px;
+    font-size: medium;
+    width: 18%;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: rgb(132, 173, 234);
+    border: 1px solid;
+}
+.button-sendmailoffi input:hover{
+    transform: scale(1.05);
+    background-color: rgb(90 147 231);
 }
 #submitMsg{
     font-size: medium;
