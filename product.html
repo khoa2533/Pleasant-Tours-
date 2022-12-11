@@ -120,7 +120,7 @@
         }
 
         var nameElement = document.getElementById("my-Phone");
-        if(nameElement.value == ""){
+        if(nameElement.value == "" || (nameElement.value.length == 10 || nameElement.value.length == 11) == false){
             nameElement.style.borderColor = "red";
             document.getElementById("phone-Error").innerHTML = "Phone number from 10-11 digits.";
         }else{
@@ -131,7 +131,7 @@
 
         
         var nameElement = document.getElementById("my-Add");
-        if(nameElement.value == "" || (nameElement.value.length == 10 || nameElement.value.length == 11) == false){
+        if(nameElement.value == ""){
             nameElement.style.borderColor = "red";
             document.getElementById("add-Error").innerHTML = "Please input your address.";
         }else{
@@ -140,7 +140,7 @@
             count++;
         }
 
-        if(count == 3){
+        if(count == 4){
             alert("Complete travel booking!");
         }
     }

@@ -20,7 +20,7 @@
 <body ng-app="myApp">
 <header>
     <div style="display:flex;" class="logo">
-    <div><img src="./images/logo.jpg" width="75" height="70"></div>
+    <div><a href="./index.html"><img src="./images/logo.jpg" width="75" height="70"></a></div>
     <p class="name"><span id="red">Pleasant</span> Tours<br> <span class="slogan">Traveling to Vietnam, going is fun, coming back is remembering</span></p>
     <!-- <p id="tel">Tel: 19006789 <br><span>Mail: vngotravel@gmail.com.vn</span></p> -->
     </div>
@@ -73,11 +73,13 @@
    
                         <input type="button" value="Send Contact" id="submitMsg" onclick="myFunction()">
                         <input type="reset" value="Reset" id="my-Reset">
+                        
                     </td>
                 </tr>
             </form>
         </table>
     </div>
+    
     <div class="col-6 content-contactus-row2">
         <p> 
             <p>VIETGO INTERNATIONAL SERVICES JOINT STOCK COMPANY</p>
@@ -90,12 +92,13 @@
         </p>
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.319281359228!2d106.66408561411663!3d10.786840061952653!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752ed2392c44df%3A0xd2ecb62e0d050fe9!2zRlBUIEFwdGVjaCBIQ00gLSBI4buHIFRo4buRbmcgxJDDoG8gVOG6oW8gTOG6rXAgVHLDrG5oIFZpw6puIFF14buRYyBU4bq_IChTaW5jZSAxOTk5KQ!5e0!3m2!1svi!2s!4v1670070715842!5m2!1svi!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </div>
+    <div class="button-sendmailoffi">
+        <form action="mailto:vietgotravel@gmail.com" method="post" enctype="text/plain">
+            <input type="submit" value="Send with official email">
+        </form>
+    </div>
 </div>
-<div class="button-sendmailoffi">
-    <form action="mailto:vietgotravel@gmail.com" method="post" enctype="text/plain">
-        <input type="submit" value="Send with official email">
-    </form>
-</div>
+
 <script>
     function myFunction(){
         var count = 0; 
