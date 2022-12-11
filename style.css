@@ -614,13 +614,16 @@ table .table-contactus form tr td input{
     color: red;
 }
 #my-Name{
-    width: 400px;
+    width: 100%;
 }
 #my-Email{
-    width: 400px;
+    width: 100%;
 }
 #my-Phone{
-    width: 400px;
+    width: 100%;
+}
+#my-Add{
+    width: 100%;
 }
 iframe{
     height: 300px;
@@ -687,4 +690,27 @@ input::-webkit-inner-spin-button {
     background-color:  rgb(255, 221, 221);
     font-size: 20px;
     font-family: cursive;
+}
+.pagination{
+    text-align: center;
+    user-select: none;
+}
+.pagination li{
+    display: inline-block;
+    margin: 5px;
+}
+.pagination li a{
+    text-decoration: none;
+    font-size: 1.2em;
+    line-height: 45px;
+}
+.previous-page, .next-page{
+    width: 80px;
+    border-radius: 45px;
+    cursor: pointer;
+}
+.current-Page, .dots{
+    width: 45px;
+    border-radius: 50%;
+    cursor: pointer;
 }

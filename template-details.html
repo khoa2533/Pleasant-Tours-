@@ -5,20 +5,31 @@
             <img src="{{ product.imgUrl }}">
         </div>
         <div class="input col-sm-5">
-            <form onsubmit="notification()"x>
+            <form onsubmit="return false">
                 <p>Enter tour registration information</p>
+                
                 <label for="">Full name:</label><br>
-                <input class="information" type="text" placeholder="Enter your first and last name"><br>
+                <input type="text" placeholder="Name*" autofocus id="my-Name"><br>
+                <span id="name-Error" class="error-Msg"></span><br>
+
                 <label>Sex:</label><br>
-                <input name="sex" type="radio">Male
-                <input name="sex" type="radio">Female <br>
-                <label for="">Phone number:</label><br>
-                <input class="information" type="tel" placeholder="Enter your phone number"><br>
+                <input type="radio" id="my-Radio" name="check" checked="check">Male
+                <input type="radio" name="check">Female <br>
+                
+                <label for="">Telephone:</label><br>
+                <input type="number" placeholder="Telephone*" id="my-Phone"><br>
+                <span id="phone-Error" class="error-Msg"></span><br>
+
                 <label for="">Email:</label><br>
-                <input class="information" type="email" placeholder="Enter your email"><br>
+                <input type="email" placeholder="Email*" id="my-Email"><br>
+                <span id="email-Error" class="error-Msg"></span><br>
+
                 <label for="">Address:</label><br>
-                <input class="information" type="text" placeholder="Enter your address"><br>
-                <input id="send"  type="submit" value="Send information">
+                <input type="text" placeholder="Address*" autofocus id="my-Add"><br>
+                <span id="add-Error" class="error-Msg"></span><br>
+
+                <input type="button" value="Send Contact" id="submitMsg" onclick="myFunction()">
+                <input type="reset" value="Reset" id="my-Reset">
             </form>
         </div>
     </div>

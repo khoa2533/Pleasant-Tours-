@@ -23,6 +23,7 @@
 .details .vertical{
     padding-top: 2%;
     display: block;
+    font-size: small;
 }
 .details .vertical p select{
     outline: none;

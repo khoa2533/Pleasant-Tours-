@@ -19,7 +19,7 @@
 <body ng-app="myApp">
 <header>
     <div style="display:flex;" class="logo">
-    <div><img src="./images/logo.jpg" width="75" height="70"></div>
+    <div><a href="./index.html"><img src="./images/logo.jpg" width="75" height="70"></a></div>
     <p class="name"><span id="red">Pleasant</span> Tours<br>  <span class="slogan">Traveling to Vietnam, going is fun, coming back is remembering</span></p>
     <!-- <p id="tel">Tel: 19006789 <br><span>Mail: vngotravel@gmail.com.vn</span></p> -->
     </div>
@@ -66,7 +66,6 @@
             $http.get("list.json").then(function(response){
                 gMyData = response.data.products;
                 $scope.myData = response.data.products;
-                //$scope.course = {};
                 $scope.details = function(id){
                     debugger
                     for(i in $scope.myData){
@@ -96,6 +95,65 @@
             }
         }
     </script>
+<script>
+    function myFunction(){
+        var count = 0; 
+
+        var nameElement = document.getElementById("my-Name");
+        if(nameElement.value == ""){
+            nameElement.style.borderColor = "red";
+            document.getElementById("name-Error").innerHTML = "Please input your name.";
+        }else{
+            nameElement.style.borderColor = "";
+            document.getElementById("name-Error").innerHTML = "";
+            count++;
+        }
+        
+        var nameElement = document.getElementById("my-Email");
+        if(nameElement.value == "" || ValidateEmail(nameElement.value) == false){
+            nameElement.style.borderColor = "red";
+            document.getElementById("email-Error").innerHTML = "Please input your email.";
+        }else{
+            nameElement.style.borderColor = "";
+            document.getElementById("email-Error").innerHTML = "";
+            count++;
+        }
+
+        var nameElement = document.getElementById("my-Phone");
+        if(nameElement.value == ""){
+            nameElement.style.borderColor = "red";
+            document.getElementById("phone-Error").innerHTML = "Phone number from 10-11 digits.";
+        }else{
+            nameElement.style.borderColor = "";
+            document.getElementById("phone-Error").innerHTML = "";
+            count++;
+        }
+
+        
+        var nameElement = document.getElementById("my-Add");
+        if(nameElement.value == "" || (nameElement.value.length == 10 || nameElement.value.length == 11) == false){
+            nameElement.style.borderColor = "red";
+            document.getElementById("add-Error").innerHTML = "Please input your address.";
+        }else{
+            nameElement.style.borderColor = "";
+            document.getElementById("add-Error").innerHTML = "";
+            count++;
+        }
+
+        if(count == 3){
+            alert("Complete travel booking!");
+        }
+    }
+    
+    function ValidateEmail(value){
+        var mailformat = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+        if(value.match(mailformat)){
+            return true;
+        }else{
+            return false;
+        }
+    }   
+</script>
 </nav>
 <div class="footer">
     <div class="container">
