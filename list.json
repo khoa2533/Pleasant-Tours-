@@ -8,7 +8,7 @@
             , "type": "North"
             , "time": "2 Days"
             , "downloadifm": "./word-ifm/catba.docx"
-            , "downloadprice": "sapa.docx"
+            , "downloadprice": "./word-price/pricetraveltocatba.docx"
         },
         {
             "no": 2, "id": "C02", "title": "Da Lat", "description":"With an altitude of 1,500 meters above sea level and surrounded by mountain ranges and forest flora, Da Lat inherits a mild and cool mountainous climate all year round. The history of more than a century has also left the city a valuable architectural heritage, likened to a museum of European architecture in the twentieth century. The rich natural and human resources make Da Lat one of the famous tourist destinations of Vietnam, attracting millions of tourists every year to visit and relax. Da Lat is also a center of education and scientific research, a religiously diverse city with the presence of hundreds of temples, churches, monasteries... a particularly rich agricultural area with vegetable and flower products. Thanks to its mild climate, beautiful natural landscape and rich architectural heritage, Da Lat is also known by many other names such as 'Misty City', 'City of Thousand Pines', 'City of Thousand Pines', 'Land of Cherry Blossoms' or 'Little Paris'."
@@ -17,7 +17,7 @@
             , "type": "Central"
             , "time": "2 Days"
             , "downloadifm": "./word-ifm/dalat.docx"
-            , "downloadprice": "sapa.docx"
+            , "downloadprice": "./word-price/pricetraveltodalat.docx"
         },
         {
             "no": 3, "id": "C03", "title": "Vinh Ha Long", "description":"Hạ Long Bay or Halong Bay (Vietnamese: Vịnh Hạ Long, IPA: [vînˀ hâ:ˀ lawŋm] (listen)) is a UNESCO World Heritage Site and popular travel destination in Quảng Ninh Province, Vietnam. The name Hạ Long means 'descending dragon'. Administratively, the bay belongs to Hạ Long city, Cẩm Phả city, and is a part of Vân Đồn district. The bay features thousands of limestone karsts and isles in various shapes and sizes. Hạ Long Bay is a center of a larger zone which includes Bai Tu Long Bay to the northeast, and Cát Bà Island to the southwest. These larger zones share a similar geological, geographical, geomorphological, climate, and cultural characters."
@@ -26,7 +26,7 @@
             , "type": "Central"
             , "time": "3 Days"
             , "downloadifm": "./word-ifm/halongbay.docx"
-            , "downloadprice": "sapa.docx"
+            , "downloadprice": "./word-price/pricetraveltovinhhalong.docx"
         },
         {
             "no": 4, "id": "C04", "title": "Hue", "description":"Hue is the capital city of Thua Thien Hue province, Vietnam. Hue used to be the capital (the ancient capital of Hue) of Vietnam during the Tay Son Dynasty (1788-1801) and the Nguyen Dynasty (1802-1945). Currently, the city is one of the centers of culture - tourism, specialized health care, education and training, science and technology of the Central - Central Highlands and the whole country. Prominent landmarks are the Perfume River and the legacy of the feudal dynasties, the city has five UNESCO titles in Vietnam: Complex of Hue Monuments (1993), Hue Court Music (2003) , Woodblocks of Nguyen Dynasty (2009), Chau Ban of Nguyen Dynasty (2014) and System of poetry and literature on Hue royal architecture (2016). In addition, Hue is also one of the localities with a heritage of Bai Choi singing which has been recognized as an intangible cultural heritage of humanity."
@@ -35,7 +35,7 @@
             , "type": "Central"
             , "time": "4 Days"
             , "downloadifm": "./word-ifm/hue.docx"
-            , "downloadprice": "sapa.docx"
+            , "downloadprice": "./word-price/pricetraveltohue.docx"
         },
         {
             "no": 5, "id": "C05", "title": "Mai Chau", "description":"Every season, Mai Chau is beautiful in its own way. February to April is spring, the flowers bloom, the weather is warm and quite pleasant. Mai Chau's landscape changes throughout the summer. May and June are the rice season, the yellow color of ripe rice covers the valley. July is the rainy season. August to October is the most beautiful season to travel to Mai Chau, enjoy the autumn weather in the sunshine pouring honey on the rice fields. At the end of October, the valley turns yellow when it is time to harvest. From November to January next year is the season of apricot and plum blossoms in the valley."
@@ -44,7 +44,7 @@
             , "type": "North"
             , "time": "2 Days"
             , "downloadifm": "./word-ifm/maichau.docx"
-            , "downloadprice": "sapa.docx"
+            , "downloadprice": "./word-price/pricetraveltomaichau.docx"
         },
         {
             "no": 6, "id": "C06", "title": "Moc Chau", "description":"The most typical tourist activity in Moc Chau is sightseeing. Indeed, hundreds of natural sites can take your breath away. In addition, the highland's collection of traditional festivals is another thing that attracts tourists from all over the country. Some of the places to check out are Son Moc Huong Cave, Chien Vien Pagoda, Dai Yem Waterfall, PhiengLuong Peak, endless pine forests, and the villages of the Dao ethnic groups. The music of ethnic people spreads all over the highland while the delicious traditional dishes and the local souvenirs enchant the tourists."
@@ -53,7 +53,7 @@
             , "type": "North"
             , "time": "2 Days"
             , "downloadifm": "./word-ifm/mocchau.docx"
-            , "downloadprice": "sapa.docx"
+            , "downloadprice": "./word-price/pricetraveltomocchau.docx"
         },
         {
             "no": 7, "id": "C07", "title": "Nha Trang", "description":"Nha Trang beach city is well known for its pristine beaches and excellent scuba diving. It is fast becoming a popular destination for international tourists, attracting large numbers of backpackers and more affluent travelers on the Southeast Asia circuit. It is already very popular with Vietnamese tourists. Nha Trang Bay is widely considered as of the world's most beautiful bays. Tourists are welcome to participate in the Sea Festival, held biennially. Nha Trang was the site of the Miss Universe 2008 Pageant on July 14, 2008, and it will also host Miss World 2010."
@@ -62,7 +62,7 @@
             , "type": "Central"
             , "time": "3 Days"
             , "downloadifm": "./word-ifm/nhatrang.docx"
-            , "downloadprice": "sapa.docx"
+            , "downloadprice": "./word-price/pricetraveltonhatrang.docx"
         },
         {
             "no": 8, "id": "C08", "title": "Quy Nhon", "description":"Quy Nhon is a lively and pleasant city virtually halfway between the famous cities of Nha Trang and Hoi An. The city is known for its beautiful surroundings, Cham temples, and nearby beaches. Whilst tourism is increasing in Quy Nhon, this tends to be local tourism, and for the majority of travelers, it remains relatively off the beaten track. The city is perfect for those who want to break up a journey between Nha Trang and Hoi An, being about 6 hours from each."
@@ -71,7 +71,7 @@
             , "type":"Central"
             , "time": "2 Days"
             , "downloadifm": "./word-ifm/quynhon.docx"
-            , "downloadprice": "sapa.docx"
+            , "downloadprice": "./word-price/pricetraveltoquynhon.docx"
         },
         {
             "no": 9, "id": "C09", "title": "Tay Ninh", "description":"Tay Ninh is the birthplace of the Cao Dai religion and the home of the Cao Dai Holy See, the center of Cao Daism. Tay Ninh is also known for the Ba Den mountain, the highest mountain in southern Vietnam, and the Dau Tieng reservoir, the largest reservoir in Vietnam. Tay Ninh is hot and humid all year with an average temperature of 27.5 °C, and rainfall of 1,724 mm. The dry season typically lasts from Dec-Apr and the rainy season from May-Nov."
@@ -80,7 +80,7 @@
             , "type":"South"
             , "time": "2 Days"
             , "downloadifm": "./word-ifm/tayninh.docx"
-            , "downloadprice": "sapa.docx"
+            , "downloadprice": "./word-price/pricetraveltotayninh.docx"
         },
         {
             "no": 10, "id": "C010", "title": "Sapa", "description":"As a tourism center in the northwest of Vietnam, Sapa today is home to stunning scenery, intoxicating cultural makeup, and a diverse range of ethnic minorities. Comprising both natural beauty and culture into just one comprehensive package, Sapa is worth visiting for any genuine seekers. It offers an incredible adventure of conquering the Roof of Indochina – Mount Fansipan. Explorations and trekkers will not find abnormal animals and things on the top of Fansipan but a splendid world of misty clouds, ranges of mountains, green paddle fields, and a small pagoda for worship."
@@ -89,7 +89,7 @@
             , "type":"North"
             , "time": "3 Days"
             , "downloadifm": "./word-ifm/sapa.docx"
-            , "downloadprice": "sapa.docx"
+            , "downloadprice": "./word-price/pricetraveltosapa.docx"
         },
         {
             "no": 11, "id": "C011", "title": "Ho Chi Minh", "description":"Ho Chi Minh City, formerly known as Saigon, once “The Pearl of the Far East” is the second largest city in Vietnam (the largest being Hanoi). It is the most crowded city in the country with an official population of over 8 million people on a total area of over 2,095 km2. The city now comprises 19 districts and 5 suburban districts. District 1, along the Saigon River, where downtown Saigon is located, is the commercial center and contains most of the city’s monuments and landmarks. 8 km away in district 5 resides a big market or Cho Lon where the Chinese community lives. With favorable weather the whole year round and convenient access from other countries by air, by road, and by sea, Ho Chi Minh city is a busy and dynamic metropolitan."
@@ -98,7 +98,7 @@
             , "type":"South"
             , "time": "4 Days"
             , "downloadifm": "./word-ifm/hochiminh.docx"
-            , "downloadprice": "sapa.docx"
+            , "downloadprice": "./word-price/pricetraveltohochiminh.docx"
         },
         {
             "no": 12, "id": "C012", "title": "Vinh Long", "description":"Lying in the center of the Mekong Delta of southern Vietnam, Vinh Long province is a unique province that has boundaries with 07 provinces and cities namely Tien Giang, Ben Tre, Tra Vinh, Dong Thap, Hau Giang, Soc Trang, and Can Tho City. Vinh Long province is 136km far from Ho Chi Minh City to the north, and 33km far from Can Tho city to the south. Its population is over 01 million including ethnics of Kinh, Khmer, and Chinese living in an area of 1.520km2. Modern Vinh Long province, as part of the old Long Ho Dinh, formed in 1732 is known as the “Scared land of the talented” that nourishes the outstanding people including the late Chairman Council of Ministers Pham Hung, late Prime Minister Vo Van Kiet and the late Professor, Academician, Hero of Labor Tran Dai Nghia."
@@ -107,7 +107,7 @@
             , "type":"South"
             , "time": "1 Days"
             , "downloadifm": "./word-ifm/vinhlong.docx"
-            , "downloadprice": "sapa.docx"
+            , "downloadprice": "./word-price/pricetraveltovinhlong.docx"
         },
         {
             "no": 13, "id": "C013", "title": "An Giang", "description":"An Giang is a province in southern Viet Nam and is a part of the Long Xuyen ( Long Xuyen) Quadrangle which suffers a lot of natural disasters. However, this is also advantageous to make fertile soil for this land. An Giang possesses many places that attract travelers to its beauty. This province is also the land of the Cham ( Cham) people, an ethnic minority of Vietnam, so the culture is varied and makes for an interesting experience. Visit An Giang province, the first feeling of here is peaceful and comfortable. The paddy rice fields are green and luxuriant. The sky is blue and fresh. The beautiful voice of birds mixes with the voice of children on paddy fields. All of the things create a wonderful picture that anyone cannot forget when coming here."
@@ -116,7 +116,7 @@
             , "type":"South"
             , "time": "2 Days"
             , "downloadifm": "./word-ifm/angiang.docx"
-            , "downloadprice": "sapa.docx"
+            , "downloadprice": "./word-price/pricetraveltoangiang.docx"
         },
         {
             "no": 14, "id": "C014", "title": "Dong Thap", "description":"Every year, Tien and Hau's rivers provide alluvial soil for Dong Thap that is convenient for growing food and fruit plant. So this area is the granary of Vietnam. The province has the potential of short day crops (sugar cane, cotton, tobacco, soil bean, and other fruit plants with the popular names of Cao Lanh mango, Chau Thanh longan, Lai Vung mandarin, Phong Hoa grapefruit. From January to May every year, when the sky is clear, a tourist would visit Tram Chim National Park to observe many cranes. It is a crane flock returning after months of emigrating to evade flood. This is also the season for tourists to see, and photograph cranes at dawn and sunset. Tourists can admire the vast lotus and bonsai in Sa Dec Flower Garden. A forest of flowers of all colors and aroma are always available here."
@@ -125,16 +125,16 @@
             , "type":"South"
             , "time": "1 Days"
             , "downloadifm": "./word-ifm/dongthap.docx"
-            , "downloadprice": "sapa.docx"
+            , "downloadprice": "./word-price/pricetraveltodongthap.docx"
         },
         {
-            "no": 15, "id": "C015", "title": "Phu Quoc", "description":""
+            "no": 15, "id": "C015", "title": "Phu Quoc", "description":"Phu Quoc Island in Kien Giang Province is Viet Nam's largest island. It is blessed with beautiful scenery and rich natural resources. Visitors to Phu Quoc love its peaceful sea and long sandy beaches which distinguish it from other seaside resorts like Nha Trang and Da Nang. Bella, a tourist from Switzerland said that she likes Phu Quoc very much because people are very friendly and the island is beautiful. Most hotels and resorts in Phu Quoc are located along Bai Dai, or Long Beach, where the sea is as blue as sapphire and nature is unspoiled. The ABC News selected Bai Dai Beach in Phu Quoc as one of the world's 5 most beautiful and clean beaches. Its “Hidden beaches” list called Bai Dai a heaven of sun, water, and peaceful nature. Bai Sao, or Star Beach on the island's southeast coast is another beautiful place to enjoy the sun. Still almost unknown to tourists, this little white sand beach with emerald water is ideal for sunbathing. Bai Sao is flanked by rocky promontories jutting into the sea. “From Ho Chi Minh City, we fly here, to Phu Quoc Island, just to relax, to enjoy the beach and swimming pool, and the sun. Phu Quoc is very nice and we really enjoy our time here”, says Lilian, a tourist from the Netherlands. Kien Giang Province is hosting the Visit Viet Nam Year 2016 - Phu Quoc-Mekong River Delta with the theme “Exploring the Southern land”. Phu Quoc Island is one of its top destinations. 'There are more than 20 flights a day to from Ha Noi, Ho Chi Minh City, and Can Tho, and we are now establishing routes between Phu Quoc and Singapore, Cambodia, China and Russia. Many international airlines have registered to open new routes to Phu Quoc this year', Vice Chairman of the Phu Quoc District People's Committee Huynh Quang Hung said. Pure air, unspoiled nature, and improving infrastructure are making Phu Quoc a major attraction for tourists."
             , "price": "132.75$","imgUrl":"./imageproduct/phuquocproduct.jpg"
             , "subDescription":""
             , "type":"South"
             , "time": "3 Days"
             , "downloadifm": "./word-ifm/phuquoc.docx"
-            , "downloadprice": "sapa.docx"
+            , "downloadprice": "./word-price/pricetraveltophuquoc.docx"
         },
         {
             "no": 16, "id": "C016", "title": "Son Tra", "description":"With its sea-oriented appearance, Son Tra acts as a giant screen protecting Da Nang from storms and cyclones coming from the sea. Son Tra is under the national protected forest regulation since it is a natural preservation area. The Peninsula is famous for its large plants and fauna as well as the beautiful scenery. It is said that fairies used to come here for singing, dance, and play chess so Son Tra is also called Tien Sa (Fairies' landing place). On Son Tra, there remain more than 30km² of natural forests, nearly 300 types of plants, and several hundred kinds of fauna, including the rare animal. From the top of the mountain, you can see the overall view of Danang City, Marble Mountains, and Ba Na - Mount Chua, so interesting!"
@@ -143,20 +143,20 @@
             , "type":"Central"
             , "time": "1 Days"
             , "downloadifm": "./word-ifm/sontra.docx"
-            , "downloadprice": "sapa.docx"
+            , "downloadprice": "./word-price/pricetraveltosontra.docx"
         },
         {
             "no": 17, "id": "C017", "title": "Tam Dao", "description":"There are two sites for tourists in the park. The first is Tam Đảo town which was established in 1907. Tam Đảo is nestled in a valley covering only 3 km2. There now remain a stone church, and some villas, and palaces built by French colonists. It has Thac Bac (The Silver Fall), Rung Rinh peak, and Tam Đảo 2, a remnant of another resort made many years ago. The second tourist location is Tay Thien site. It includes Tay Thien Quoc Mau Temple (literally The 'Temple of West Heaven National Mother') and many pagodas. Along with Thien Vien Truc Lam (literally: 'Dhyana Palace in Bamboo Forest') in Da Lat and Yen Tu, Thien Vien Truc Lam Tay Thien is a center of Vietnamese Buddhism."
-            , "price": "48.19$","imgUrl":"./imageproduct/tamdaoproduct.jpg"
+            , "price": "58.96$","imgUrl":"./imageproduct/tamdaoproduct.jpg"
             , "subDescription":""
             , "type":"North"
             , "time": "2 Days"
             , "downloadifm": "./word-ifm/tamdao.docx"
-            , "downloadprice": "sapa.docx"
+            , "downloadprice": "./word-price/pricetraveltotamdao.docx"
         },
         {
             "no": 18, "id": "C018", "title": "Ha Noi", "description":"Throughout the thousand years of its eventful history, marked by destruction, wars, and natural calamities, Hanoi still preserves many ancient architectural works including the Old Quarter and over 600 pagodas and temples. Famous sites include the One Pillar Pagoda (built in 1049), the Temple of Literature (built in 1070), the Hanoi Citadel, the Hanoi Opera House, and President Ho Chi Minh's Mausoleum. Hanoi also characteristically contains 18 beautiful lakes such as Hoan Kiem Lake, West Lake, and Truc Bach Lake..., which are the lungs of the city, with their surrounding gardens and trees providing a vital source of energy. Many traditional handicrafts are also practiced in Hanoi including bronze molding, silver carving, lacquer, and embroidery. Hanoi has many famous traditional professional handicraft villages such as Bat Trang pottery village, Ngu Xa bronze casting village, Yen Thai glossy silk..."
-            , "price": "48.19$","imgUrl":"./imageproduct/hanoiproduct.jpg"
+            , "price": "63.63$","imgUrl":"./imageproduct/hanoiproduct.jpg"
             , "subDescription":""
             , "type":"North"
             , "time": "2 Days"

@@ -44,6 +44,12 @@ body{
     margin-top: -20px;
     padding-bottom: 20px;
 }
+.content-table{
+    background-color: #ffffff;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: -20px;
+    padding-bottom: 20px;
+}
 .main-contentblog{
     margin-top: 90px;
 }
@@ -492,7 +498,7 @@ div .button-pruduct-card .button-card a{
 .home-news1{
     width: 100%;
     border: 1px solid;
-    margin-top: 20px;
+    margin-top: 40px;
 }
 .home-news1 .table tbody td{
     text-align: left;
@@ -537,7 +543,7 @@ div .button-pruduct-card .button-card a{
 .content-contactus-row1{
     padding-left: 200px;
     font-size: large;
-    margin-bottom: 20px;
+    margin-bottom: 20px ;
 }
 .content-contactus-row2{
     font-size: large;
