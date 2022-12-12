@@ -13,11 +13,10 @@ Student1409144   Nguyễn Xuân Hưng
 Student1409160   Nguyễn Hoàng Minh
 ============================
 
-eProject documentation at https://github.com/khoa2533/vngotravel/tree/main/document
+eProject documentation at https://github.com/khoa2533/PleasantTours/tree/main/document
 ============================
 
-eProject published at https://github.com/khoa2533/vngotravel
-
+eProject published at https://khoa2533.github.io/PleasantTours/#!/
 ============================
 
 Thank you for spending your time to look at our work.
