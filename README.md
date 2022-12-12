@@ -13,7 +13,7 @@ Student1409144   Nguyễn Xuân Hưng
 Student1409160   Nguyễn Hoàng Minh
 ============================
 
-eProject documentation at https://github.com/khoa2533/vngotravel/tree/main/document
+eProject documentation at https://khoa2533.github.io/vngotravel/blog.html#!/
 ============================
 
 eProject published at https://github.com/khoa2533/vngotravel
