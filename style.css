@@ -261,7 +261,7 @@ header .logo #tel{
     border-radius: 100%;
     border: rgb(90 147 231) 1px solid;
     margin: auto;
-    margin-top: 10px;
+    margin-top: 20px;
     height: 100px;
     width: 120px;
 }
@@ -615,7 +615,7 @@ div .button-pruduct-card .button-card a{
     border-radius: 100%;
     border: rgb(90 147 231) 1px solid;
     margin: auto;
-    margin-top: 10px;
+    margin-top: 20px;
     height: 100px;
     width: 120px;
 }
