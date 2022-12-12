@@ -636,6 +636,9 @@ input::-webkit-inner-spin-button {
     appearance: none;
     margin: 0;
 }
+.details .input input{
+    margin: 2px;
+}
 .details .input form{
     font-size: 11px;
 }
