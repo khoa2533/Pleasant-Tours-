@@ -15,8 +15,16 @@ body{
     outline:0;
     background-color: rgb(132 173 234);
 }
+.header table tr{
+    width:100%;
+    min-width: 180px;
+    height: 70px;
+    text-align: center;
+    transition:all 0.5s;
+}
 .header table tr td{
-    width: 300px;
+    width:100%;
+    min-width: 190px;
     height: 70px;
     text-align: center;
     transition:all 0.5s;
@@ -33,6 +41,9 @@ body{
     position: absolute;
     z-index:1;
     box-shadow: 1px 1px 10px black;
+}
+.carousel{
+    margin-top: 68px;
 }
 #all-tour{
     text-align: center;
@@ -242,6 +253,9 @@ header .logo #tel{
     font-size: medium;
     margin-top: -20px;
     background-color: #f9f9f9;
+}
+.footer .row{
+    margin-bottom: 20px;
 }
 .footer .logo-footer img{
     border-radius: 100%;
@@ -534,7 +548,7 @@ div .button-pruduct-card .button-card a{
     margin-left: 19px;
 }
 .content-contactus{
-    margin-top: 21px;
+    margin-top: 25px;
 }
 .content-contactus-main{
     background-color: #ffffff;
@@ -593,6 +607,9 @@ div .button-pruduct-card .button-card a{
 .footer-contactus{
     font-size: medium;
     background-color: #f9f9f9;
+}
+.footer-contactus .row{
+    margin-bottom: 20px;
 }
 .footer-contactus .logo-footer img{
     border-radius: 100%;
