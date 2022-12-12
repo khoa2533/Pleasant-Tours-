@@ -16,8 +16,7 @@ Student1409160   Nguyễn Hoàng Minh
 eProject documentation at https://khoa2533.github.io/vngotravel/blog.html#!/
 ============================
 
-eProject published at https://github.com/khoa2533/vngotravel
-
+eProject published at https://khoa2533.github.io/PleasantTours/#!/
 ============================
 
 Thank you for spending your time to look at our work.
